@@ -1,0 +1,1 @@
+{"data":{"site":{"siteMetadata":{"title":"learn gatsby"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"","fields":{"slug":"/first/second/"},"frontmatter":{"date":null,"title":"second"}}},{"node":{"excerpt":"ffdsf","fields":{"slug":"/first/"},"frontmatter":{"date":"January 31, 2019","title":"My First Gatsby Post"}}}]}},"pageContext":{}}
