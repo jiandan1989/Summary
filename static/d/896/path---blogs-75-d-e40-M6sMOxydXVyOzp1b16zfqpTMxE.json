@@ -1,0 +1,1 @@
+{"data":{"site":{"siteMetadata":{"title":"learn gatsby"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"second","fields":{"slug":"/blogs/React/React/"},"frontmatter":{"date":"January 31, 2019","title":"second"}}},{"node":{"excerpt":"安装 创建站点 使用插件","fields":{"slug":"/blogs/React/Gatsby/"},"frontmatter":{"date":"January 31, 2019","title":"Gatsby Step One"}}}]}},"pageContext":{}}

@@ -1,0 +1,1 @@
+{"data":{"site":{"siteMetadata":{"title":"learn gatsby"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"first","fields":{"slug":"/blogs/React/1/"},"frontmatter":{"date":"January 31, 2019","title":"first"}}},{"node":{"excerpt":"second","fields":{"slug":"/blogs/React/2/"},"frontmatter":{"date":"January 31, 2019","title":"second"}}}]}},"pageContext":{}}
