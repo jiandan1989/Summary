@@ -26,39 +26,39 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-3e78c898e1af663ee28a.js"
+    "url": "webpack-runtime-f245e3f8d6ac597f5808.js"
   },
   {
-    "url": "app.39548b59980be9ee0413.css"
+    "url": "styles.c67689b1db132e7efb25.css"
   },
   {
-    "url": "app-f5cb60a5e97bdaa21e0b.js"
+    "url": "styles-76d602423aa6be2ddd92.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-92177e411fdb0fbc4ac4.js"
+    "url": "app-b6e797ac776abb4db1b5.js"
+  },
+  {
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-bb45f6cc49c46dc23c54.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e2092b99593437a3ce824083e3bcc03f"
+    "revision": "940c6b3781cbae3e625e075eb8fa11eb"
   },
   {
-    "url": "0.d9931b8fa15d65ae1473.css"
+    "url": "1-61a43c18ec323bc5b0c2.js"
   },
   {
-    "url": "0-636b975fa8ce116b1d95.js"
+    "url": "component---src-pages-404-js-11918a45bf38c7d75217.js"
   },
   {
-    "url": "component---src-pages-404-js-0bd5bd7ac77fa751f510.js"
+    "url": "static/d/285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8.json"
   },
   {
-    "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json"
-  },
-  {
-    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json"
+    "url": "static/d/604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8.json"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "87c0aab7bcead1b6bef8fee51b43d6b4"
+    "revision": "1167c24972c539cb30b02dfc711967b1"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -79,7 +79,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/gatsby-blogs/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/Summary/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -151,7 +151,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/gatsby-blogs${pathname}`
+        return `/Summary${pathname}`
       } else {
         return pathname
       }
