@@ -27,7 +27,11 @@ module.exports = [{
             wrapperStyle: `margin-bottom: 1.0725rem`,
           },
         },
-        `gatsby-remark-prismjs`,
+        {
+          resolve: `gatsby-remark-prismjs`,
+          classPrefix: "language-",
+          showLineNumbers: false,
+        },
         `gatsby-remark-copy-linked-files`,
         `gatsby-remark-smartypants`,
       ],
@@ -56,6 +60,13 @@ module.exports = [{
       theme_color: `#663399`,
       display: `minimal-ui`,
       icon: `content/assets/gatsby-icon.png`,
+    },
+  },
+  {
+    resolve: `gatsby-plugin-nprogress`,
+    options: {
+      color: `tomato`,
+      showSpinner: true,
     },
   },
   `gatsby-transformer-sharp`,

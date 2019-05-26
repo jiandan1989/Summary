@@ -1,24 +1,18 @@
 /**
  * @desc: 布局 Header
- * @name: LayoutHeader
+ * @name: Header
  */
 
 import React from 'react';
 import { Link } from 'gatsby';
 import { Menu, Affix } from 'antd';
 
-import styled from 'styled-components';
+import { HeaderWrapper } from '../wrapper';
 
-const Wrapper = styled(Menu)`
-  margin: 0 auto;
-  max-width: 960px;
-  margin-bottom: 12px;
-`;
-
-const LayoutHeader = () => {
+function Header() {
   return (
     <Affix>
-      <Wrapper mode="horizontal">
+      <HeaderWrapper mode="horizontal">
         <Menu.Item key="home">
           <Link to="/">首页</Link>
         </Menu.Item>
@@ -28,9 +22,9 @@ const LayoutHeader = () => {
         <Menu.Item key="about">
           <Link to="/about">关于我</Link>
         </Menu.Item>
-      </Wrapper>
+      </HeaderWrapper>
     </Affix>
   );
 }
 
-export default LayoutHeader;
+export default Header;

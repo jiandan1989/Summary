@@ -5,7 +5,6 @@
 
 import React from 'react';
 import { BackTop, Button, Icon } from 'antd';
-// import BlogButton from '../BlogButton';
 
 function BlogBackTop() {
   return (

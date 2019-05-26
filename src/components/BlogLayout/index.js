@@ -1,42 +1,33 @@
 import React from 'react';
 import { StaticQuery } from 'gatsby';
-import styled from 'styled-components';
 
-import LayoutHeader from './LayoutHeader';
+import Header from './Header';
 // import LayoutFooter from './LayoutFooter';
+import { LayoutWrapper, ContentWrapper } from '../wrapper';
 
-const ContentWrapper = styled.main`
-  margin: 0 auto;
-  max-width: 960px;
-  height: calc(100% - 48px);
-  padding: 24px;
-`;
-
-const Wrapper = styled.div`
-  height: 100vh;
-`;
-
-const Layout = ({ children, location }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
+function Layout({ children, location }) {
+  return (
+    <StaticQuery
+      query={graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+            }
           }
         }
-      }
-    `}
-    render={data => (
-      <Wrapper>
-        <LayoutHeader location={location} siteTitle={data.site.siteMetadata.title} />
-        <ContentWrapper>
-          {children}
-        </ContentWrapper>
-        {/* <LayoutFooter /> */}
-      </Wrapper>
-    )}
-  />
-)
+      `}
+      render={data => (
+        <LayoutWrapper>
+          <Header location={location} siteTitle={data.site.siteMetadata.title} />
+          <ContentWrapper>
+            {children}
+          </ContentWrapper>
+          {/* <LayoutFooter /> */}
+        </LayoutWrapper>
+      )}
+    />
+  );
+}
 
 export default Layout

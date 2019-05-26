@@ -10,6 +10,6 @@ module.exports = {
     //   twitter: `kylemathews`,
     // },
   },
-  pathPrefix: '/gatsby-blogs/',
+  pathPrefix: '/Summary/',
   plugins,
 }

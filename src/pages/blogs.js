@@ -6,7 +6,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-// import Bio from "../components/Bio";
 import BlogLayout from "../components/BlogLayout";
 import SEO from "../components/seo";
 import BlogList from '../components/BlogList';
@@ -25,13 +24,12 @@ class BlogPage extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <Card
-          style={{ marginTop: 24 }}
           bordered={false}
-          bodyStyle={{ padding: '8px 32px 32px 32px' }}
+          style={{ marginTop: 24 }}
+          bodyStyle={{ padding: '8px 32px 32px' }}
         >
           <BlogList posts={posts} />
         </Card>
-        {/* <Bio /> */}
       </BlogLayout>
     )
   }

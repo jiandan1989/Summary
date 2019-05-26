@@ -1,13 +1,13 @@
 /**
  * @desc: 布局Footer
- * @name: LayoutFooter
+ * @name: Footer
  */
 
 import React from 'react';
 
 import { Affix } from 'antd';
 
-function LayoutFooter() {
+function Footer() {
   return (
     <Affix offsetBottom={0}>
       <footer>footer</footer>
@@ -15,4 +15,4 @@ function LayoutFooter() {
   );
 }
 
-export default LayoutFooter;
+export default Footer;
