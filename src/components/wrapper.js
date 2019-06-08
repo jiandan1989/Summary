@@ -53,3 +53,6 @@ export const BlogLeafWrapper = styled.nav`
     }
   }
 `
+export const FlexWrapper = styled.div`
+  display: flex;
+`;
