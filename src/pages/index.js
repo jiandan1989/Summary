@@ -6,7 +6,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import { BackTop } from 'antd';
 
-
 import BlogLayout from "@/layout"
 import SEO from "@/components/seo";
 
@@ -21,6 +20,10 @@ class BlogIndex extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`, `ant-design`]}
         />
+        <img src="https://source.unsplash.com/random/1200x800" />
+        <img src="https://source.unsplash.com/random/1200x800" />
+        <img src="https://source.unsplash.com/random/1200x800" />
+        <img src="https://source.unsplash.com/random/1200x800" />
         <img src="https://source.unsplash.com/random/1200x800" />
         <BackTop />
       </BlogLayout>
