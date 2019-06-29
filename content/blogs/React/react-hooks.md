@@ -2,6 +2,7 @@
 path: '/react-hooks'
 date: '2019-05-26'
 title: 'React Hooks'
+modifyDate: "2019-06-30"
 ---
 
 <!-- ![图片](https://source.unsplash.com/random/1200x1000) -->
@@ -9,6 +10,7 @@ title: 'React Hooks'
 #### <a target="_blank" href="https://codepen.io/niexiaofei/pen/GeWeXZ">Live Demo</a>
 
 ### useState
+<a name="useState"></a>
 
 - Class
 
@@ -53,6 +55,8 @@ class StateDemo extends Component {
 
 - Hooks useState
 
+<use-state></use-state>
+
 ```jsx
 import React, { useState, Fragment } from 'react'
 
@@ -87,6 +91,7 @@ function UseStateDemo() {
 ```
 
 #### 说明
+<a name="说明"></a>
 
 - useState 接受唯一参数作为定义变量的初始值, 并返回定义变量及可修改变量的功能函数
 - 既然设置初始值, 为什么定义为 useState 而不是 createState, 根据官方文档介绍, 此处并非只有一种创建初始值的功能, 还包含有修改的函数
@@ -112,6 +117,7 @@ setCount(prevParams => ({
 - 众所周知 class 组件中的 setState 为异步操作, 而 useState 为异步还是同步函数呢 ? @todo
 
 ### useRef
+<a name="useRef"></a>
 
 > 在 React 中的 class 组件中提供一个可以获取到子组件 以及 dom 元素节点的方法就是 使用 React.createRef, 但是在函数式组件中就不再能使用此方法了, Hooks 版本提供了一种 useRef 方法
 
@@ -215,6 +221,8 @@ function TimerHook() {
 ```
 
 ### useEffect
+<a name="useEffect"></a>
+
   可以理解为发布 / 订阅模式的 useEffect, 基本融合了 class 组件中的 componentDidMount, componentDidUpdate, componentWillUnmount 三个声明周期, 可接受两个参数, 第一个参数为需要执行的匿名函数, 第二个参数可以理解为依赖, 当依赖变动时才会执行 匿名函数, 若未有变动则不会执行
 
 ```jsx
@@ -257,4 +265,5 @@ function UseEffectDemo() {
 - 如何依据 Hooks 规则 定义 自己的 hook ?  @todo
 
 ### 总结
+<a name="总结"></a>
 - 在此 hooks 版本更新之后, 用于区分组件的类型以及如何定义合适的组件, 又有了新的定义方式, 如不能再次描述 函数式组件为无状态组件

@@ -6,9 +6,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import BlogLayout from "../components/BlogLayout";
-import SEO from "../components/seo";
-import BlogList from '../components/BlogList';
+import BlogLayout from '@/layout'
+import BlogList from '@/components/BlogList';
+import SEO from "@/components/seo";
 
 import { Card } from 'antd';
 
@@ -52,8 +52,8 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             title
+            date(formatString: "YYYY MMMM DD")
           }
         }
       }

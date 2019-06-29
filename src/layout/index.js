@@ -2,8 +2,7 @@ import React from 'react';
 import { StaticQuery } from 'gatsby';
 
 import Header from './Header';
-// import LayoutFooter from './LayoutFooter';
-import { LayoutWrapper, ContentWrapper } from '../wrapper';
+import { LayoutWrapper, ContentWrapper } from '@/components/wrapper';
 
 function Layout({ children, location }) {
   return (

@@ -7,7 +7,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Menu, Affix } from 'antd';
 
-import { HeaderWrapper } from '../wrapper';
+import { HeaderWrapper } from '@/components/wrapper';
 
 function Header() {
   return (

@@ -1,13 +1,14 @@
 
 // https://www.gatsbyjs.org/tutorial/part-one/
 // https://source.unsplash.com/random/1200x800
+
 import React from "react";
 import { graphql } from "gatsby";
 import { BackTop } from 'antd';
 
 
-import BlogLayout from "../components/BlogLayout"
-import SEO from "../components/seo";
+import BlogLayout from "@/layout"
+import SEO from "@/components/seo";
 
 
 class BlogIndex extends React.Component {

@@ -4,8 +4,8 @@
  */
 
 import React from 'react';
-import BlogLayout from '../components/BlogLayout'
-import SEO from '../components/seo';
+import SEO from '@/components/seo';
+import BlogLayout from '@/layout'
 import styled from 'styled-components';
 
 const ImageWrapper = styled.section`

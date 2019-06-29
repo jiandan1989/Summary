@@ -15,7 +15,8 @@
  * 1. str 为空字符时
  * @return {String}
  */
-import { isString } from '../../utils';
+import { isString } from '@/utils/checkType';
+
 export function formatWeight(str) {
   if (!isString) {
     throw new TypeError('必须要 String 类型')

@@ -5,8 +5,8 @@
 
 import React from 'react';
 
-import BlogLayout from '../components/BlogLayout'
-import SEO from '../components/seo';
+import BlogLayout from '@/layout'
+import SEO from '@/components/seo';
 
 const NotFoundPage = () => (
   <BlogLayout>

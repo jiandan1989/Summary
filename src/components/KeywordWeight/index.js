@@ -7,8 +7,8 @@
 import React, { useState, useEffect } from 'react'
 
 import { Input, Popover } from 'antd'
-import { isFunction } from '../../utils'
-import { formatTwo } from './helper';
+import { isFunction } from '@/utils/checkType'
+import { formatTwo } from './helper.ts';
 
 // function onBlurBox(e) {
 //   const { value } = e.target
