@@ -3,7 +3,7 @@
  */
 
 import React, { Component, Fragment } from 'react'
-import { BackTop, Divider, Button, Icon, Card } from 'antd'
+import { BackTop, Button, Icon, Card } from 'antd'
 import rehypeReact from 'rehype-react'
 import { graphql } from 'gatsby'
 
@@ -26,10 +26,10 @@ const renderAst = new rehypeReact({
 class BlogPostTemplate extends Component {
   render() {
     const { data, pageContext, location } = this.props
+    // pageContext: 包含上一页, 下一页的信息 以及当前页是否是 page
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata.title
     const menuData = getSiderMenu(post)
-
     return (
       <BlogLayout location={location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -38,16 +38,17 @@ class BlogPostTemplate extends Component {
           title={
             <Fragment>
               <h2>{post.frontmatter.title}</h2>
-              <date>{post.frontmatter.date}</date>
+              {/* <span>{post.frontmatter.date}</span> */}
+              {/* <span>最后修改: {post.frontmatter.modifyDate}</span> */}
             </Fragment>
           }
           bordered={false}
         >
           {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}
           {renderAst(post.htmlAst)}
-          <Divider />
-          <BlogLeaf {...pageContext} />
+          <BlogLeaf modifyDate={post.frontmatter.modifyDate} {...pageContext} />
         </Card>
+        {/* 添加更新日志: 时间 + 更新内容 */}
         <TreeMenu data={menuData} />
         <BackTop>
           <Button type='primary'>
@@ -76,8 +77,8 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "YYYY MMMM DD")
+        modifyDate(formatString: "YYYY MMMM DD")
       }
     }
   }
 `
-// html

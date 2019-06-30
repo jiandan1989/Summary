@@ -39,4 +39,4 @@ function KeywordWeight(props) {
   )
 }
 
-export default React.forwardRef(KeywordWeight)
+export default KeywordWeight

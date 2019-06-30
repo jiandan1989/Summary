@@ -9,13 +9,16 @@ import { Icon } from 'antd';
 
 import { BlogLeafWrapper } from '../wrapper';
 
-function BlogLeaf({ previous, next }) {
+function BlogLeaf({ previous, next, modifyDate }) {
   return (
     <BlogLeafWrapper>
       {previous && (
         <Link to={previous.fields.slug} rel="prev">
           <Icon type="arrow-left" /> {previous.frontmatter.title}
         </Link>
+      )}
+      {modifyDate && (
+        <span>最近一次更新: {modifyDate}</span>
       )}
       {next && (
         <Link to={next.fields.slug} rel="next">

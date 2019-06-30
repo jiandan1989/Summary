@@ -24,6 +24,8 @@ class BlogPage extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         <Card
+          title="此处需要添加可搜索(分页 / 标签分类 / 时间排序)"
+          extra="需添加跳转及重新设计页面风格"
           bordered={false}
           style={{ marginTop: 24 }}
           bodyStyle={{ padding: '8px 32px 32px' }}

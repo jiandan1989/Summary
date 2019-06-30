@@ -10,6 +10,13 @@ module.exports = [{
   {
     resolve: `gatsby-source-filesystem`,
     options: {
+      name: `pages`,
+      path: `${__dirname}/src/pages/`,
+    },
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
       path: `${__dirname}/content/assets`,
       name: `assets`,
     },
@@ -23,10 +30,10 @@ module.exports = [{
             maxWidth: 590,
           },
         },
-        {
-          resolve: "gatsby-remark-component",
-          options: { components: ["use-state", "other-component"] }
-        },
+        // {
+        //   resolve: "gatsby-remark-component",
+        //   options: { components: ["use-state", "other-component"] }
+        // },
         {
           resolve: `gatsby-remark-responsive-iframe`,
           options: {
@@ -63,8 +70,9 @@ module.exports = [{
       short_name: `GatsbyJS`,
       start_url: `/`,
       background_color: `linear-gradient(to right, #4facfe 0%, #00f2fe 100%)`,
-      theme_color: `#663399`,
+      theme_color: `#a2466c`,
       display: `minimal-ui`,
+      crossOrigin: `use-credentials`,
       icon: `content/assets/gatsby-icon.png`,
     },
   },
@@ -72,7 +80,7 @@ module.exports = [{
     resolve: `gatsby-plugin-nprogress`,
     options: {
       color: `tomato`,
-      showSpinner: true,
+      showSpinner: false,
     },
   },
   {

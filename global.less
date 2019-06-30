@@ -1,3 +1,27 @@
+// antd
+
+.ant-card {
+  margin-bottom: 16px !important;
+}
+
+
+pre[class*="language-"] {
+  font-family: monospace;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  background: blueviolet; /* base02 */
+  // user-select: all !important;
+}
+
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  background: blueviolet !important; /* base02 */
+  // user-select: all !important;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -51,12 +75,10 @@ a:hover {
 }
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
   text-decoration: underline dotted;
 }
 b,
 strong {
-  font-weight: inherit;
   font-weight: bolder;
 }
 dfn {
@@ -386,7 +408,18 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
+  font-family: cursive;
+  font-size: 14px;
+
+  a {
+    font-size: 16px;
+  }
+
+  strong {
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
 figure {
   margin-left: 0;

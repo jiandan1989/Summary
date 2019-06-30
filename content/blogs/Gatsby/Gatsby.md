@@ -19,6 +19,13 @@ npm run start
 
 # 部署
 npm run deploy
+
+# 生产
+gatsby build
+
+# 查看打包后的版本
+gatsby serve
+
 ```
 <ant-divider></ant-divider>
 

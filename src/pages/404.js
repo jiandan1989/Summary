@@ -11,7 +11,7 @@ import SEO from '@/components/seo';
 const NotFoundPage = () => (
   <BlogLayout>
     <SEO title="404: Not found" />
-    <img src="https://images.unsplash.com/photo-1504276048855-f3d60e69632f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2785&q=80" />
+    <img src="https://images.unsplash.com/photo-1504276048855-f3d60e69632f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2785&q=80" alt="404" />
   </BlogLayout>
 )
 

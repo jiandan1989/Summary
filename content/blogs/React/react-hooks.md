@@ -12,50 +12,45 @@ modifyDate: "2019-06-30"
 ### useState
 <a name="useState"></a>
 
-- Class
+<class-state>
+  <code-panel>
 
-```jsx
+```js
 import React, { Component } from 'react';
+import { Button, Card, Badge } from 'antd';
 
-class StateDemo extends Component {
+export default class ClassState extends Component {
   constructor() {
     super();
     this.state = {
-      count: 0,
-      queryParams: {
-        pageNumber: 1,
-        pageSize: 10,
-      }
+      count: 1,
     };
   }
 
   addCount = () => {
-    this.setState(prevState => {
+    this.setState((prevState) => ({
       count: prevState.count + 1,
-    });
+    }));
   }
 
-  changeParams = (page) => {
-    this.setState(prevState => {
-      queryParams: { ...prevState, pageNumber: page },
-    });
-  }
+
   render() {
     return (
-      <div>
-      当前数: {this.state.count}
-      <button onClick={addCount}>Add</button>
-      <button onClick={() => { changeParams(2); }}>changeParams</button>
-      </div>
+      <Card title="Class State" bordered={false} bodyStyle={{ padding: '16px 0'}}>
+        <Button type="primary" onClick={this.addCount}>Add</Button>
+        <Badge count={this.state.count} style={{ marginLeft: 16 }} /> <br />
+
+        {this.props.children}
+      </Card>
     );
   }
 }
-
 ```
+  </code-panel>
+</class-state>
 
-- Hooks useState
-
-<use-state></use-state>
+<use-state>
+<code-panel>
 
 ```jsx
 import React, { useState, Fragment } from 'react'
@@ -89,6 +84,8 @@ function UseStateDemo() {
   )
 }
 ```
+</code-panel>
+</use-state>
 
 #### 说明
 <a name="说明"></a>
@@ -114,7 +111,7 @@ setCount(prevParams => ({
 }));
 ```
 
-- 众所周知 class 组件中的 setState 为异步操作, 而 useState 为异步还是同步函数呢 ? @todo
+- 众所周知 class 组件中的 setState 为异步操作, 而 useState 又是如何监听变化更新 以及 是同步或者是异步操作 ?
 
 ### useRef
 <a name="useRef"></a>
@@ -252,6 +249,90 @@ function UseEffectDemo() {
 - 如上节所说, 此方法比如为 发布 / 订阅模式, 返回一个取消订阅的匿名函数, 此方法如 class 组件的 componentWillUnmout
 - 接收参数变动才会执行匿名函数, 也可用于优化性能
 - 如何实现一个 如 useEffect的方法 ? @todo
+
+### useContext
+<a name="useContext"></a>
+
+在此之前未使用 Hooks 版本时, 使用 createContext 创建对象, 返回一个 Provider(作为数据的提供者) 和 
+  Consumer(数据的使用者) 所有在 Consumer 内包含的组件都可以调用到数据, 但是写法比较复杂 且 并非所有的子组件都需要调用数据
+
+<context-parent>
+<code-panel>
+
+```jsx
+// 可接受参数, 在当 Provider 未提供值时作为默认值使用
+import React, { Component, Fragment } from 'react'
+import { Badge, Slider, Form, Card } from 'antd'
+
+const { Item: FormItem } = Form
+
+const CountContext = React.createContext()
+
+class ContextParent extends Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 1,
+    }
+  }
+
+  changeSliderValue = (value) => {
+    this.setState({ count: value })
+  }
+
+  render() {
+    const { count } = this.state
+    return (
+      <Card title='未使用Hooks' bordered={false}>
+        <CountContext.Provider value={count}>
+          <Slider min={1} onChange={this.changeSliderValue} value={count} />
+          <Form layout='inline'>
+            <ChildA />
+          </Form>
+        </CountContext.Provider>
+      </Card>
+    )
+  }
+}
+
+class ChildA extends Component {
+  render() {
+    return (
+      <CountContext.Consumer>
+        {(count) => {
+          return (
+            <Fragment>
+              <FormItem label='ChildA'>
+                <Badge count={count} style={{ backgroundColor: '#52c41a' }} />
+              </FormItem>
+              <FormItem label='ChildB'>
+                <ChildB />
+              </FormItem>
+            </Fragment>
+          )
+        }}
+      </CountContext.Consumer>
+    )
+  }
+}
+
+class ChildB extends Component {
+  render() {
+    return (
+      <CountContext.Consumer>
+        {(count) => <Badge count={count} />}
+      </CountContext.Consumer>
+    )
+  }
+}
+export default ContextParent
+
+
+// 以上代码执行后, 在 ChildA, ChildB 中都可以调用到 count 值
+
+```
+</code-panel>
+</context-parent>
 
 ## 更多
 

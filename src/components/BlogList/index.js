@@ -32,14 +32,18 @@ class BlogList extends Component {
                 }
                 description={
                   <Fragment>
-                    <Tag color="magenta">JAVASCRIPT</Tag>
-                    <Tag color="purple">CSS</Tag>
-                    <Tag color="#f47d31">HTML</Tag>
+                    此处需要一张缩略图 @todo&nbsp;
+                    <Tag color="magenta">Javascript</Tag>
+                    <Tag color="#f47d31">TypeScript</Tag>
+                    <Tag color="purple">css</Tag>
+                    <Tag color="#f47d31">html</Tag>
                   </Fragment>
                 }
               />
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-              发布于: <small>{node.frontmatter.date}</small>
+              {/* 创建时间: @todo */}
+              <br />
+              最后修改: <small>{node.frontmatter.date}</small>
             </ListItem>
           );
         }}

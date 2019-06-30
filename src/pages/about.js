@@ -38,6 +38,8 @@ function About() {
   return(
     <BlogLayout>
       <SEO title="About" />
+      积极向上的打工仔
+      <h4>此处需要一个特牛叉的动画, 或使用纯css, 或使用 粒子动画, 或使用 ThreeJS(未使用过) @TODO</h4>
       <ImageWrapper>
         {imgs.map(({ key, url }) => (
           <img src={url} key={key} alt={key} />
