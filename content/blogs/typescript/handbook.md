@@ -115,6 +115,8 @@ let strlength: number = (<string>someValue).length;
 let someValue: any = 'this is a string';
 let strLength: number = (someValue as string).length;
 ```
+<ant-divider dashed></ant-divider>
+
 <h3 id="变量声明">变量声明</h3>
 
 #### [接口](https://www.typescriptlang.org/docs/handbook/interfaces.html)
