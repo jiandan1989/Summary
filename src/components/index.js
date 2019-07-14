@@ -3,20 +3,24 @@
  */
 
 import { Divider, Button, Card, PageHeader, Collapse } from 'antd';
-import UseState from '@/components/ReactHooks/State/UseState';
-import ClassState from '@/components/ReactHooks/State/ClassState';
-import CronExpression from '@/components/CronExpression';
-import KeywordWeight from '@/components/KeywordWeight';
+import AntdTable from '@/components/AntdTable';
 import DynamicInput from '@/components/DynamicInput';
 import MarkDownLink from '@/components/MarkDownLink';
-import AntdTable from '@/components/AntdTable';
-import ContextParent from '@/components/ReactHooks/Context/ContextParent';
+import KeywordWeight from '@/components/KeywordWeight';
 import { CodePanel } from '@/components/AntdExpansion';
+import CronExpression from '@/components/CronExpression';
+import UseState from '@/components/ReactHooks/State/UseState';
+import ClassState from '@/components/ReactHooks/State/ClassState';
+import UseReducer from '@/components/ReactHooks/Reducer/UseReducer';
+import UseContext from '@/components/ReactHooks/Context/useContext';
+import ContextParent from '@/components/ReactHooks/Context/ContextParent';
 
 const { Panel: CollapsePanel } = Collapse;
 
 const allComponents = {
   UseState,
+  UseReducer,
+  UseContext,
   ClassState,
   CodePanel,
   AntdTable,
@@ -31,6 +35,6 @@ const allComponents = {
   AntCollapse: Collapse,
   AntPageHeader: PageHeader,
   AntCollapsePanel: CollapsePanel,
-}
+};
 
 export default allComponents;

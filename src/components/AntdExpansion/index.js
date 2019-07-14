@@ -11,7 +11,7 @@ export function CodePanel({ children, title = "", ...rest }) {
       bordered={false}
       className='expansion'
       expandIconPosition='left'
-      defaultActiveKey={['code']}
+      defaultActiveKey={[]}
       expandIcon={() => <Icon type='code' />}
     >
       <CollapsePanel header={(<Tooltip title="Show Code">Code</Tooltip>)} key='code' {...rest}>

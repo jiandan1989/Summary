@@ -8,10 +8,12 @@ import { Link } from 'gatsby';
 import { Menu, Affix } from 'antd';
 
 import { HeaderWrapper } from '@/components/wrapper';
+import ProgressView from './Progress';
 
 function Header() {
   return (
     <Affix>
+      <ProgressView />
       <HeaderWrapper mode="horizontal">
         <Menu.Item key="home">
           <Link to="/">首页</Link>

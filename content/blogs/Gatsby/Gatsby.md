@@ -2,7 +2,7 @@
 path: '/gatsby-stpe-one'
 title: 'Gatsby搭建个人博客'
 date: '2019-06-30'
-modifyDate: "2019-06-30"
+modifyDate: "2019-07-14"
 ---
 
 <h3 id="命令">命令</h3>
@@ -27,24 +27,6 @@ gatsby build
 gatsby serve
 
 ```
-<ant-divider></ant-divider>
-
-<h3 id="TODO">TODO</h3>
-
-- √ 如何使用插件 ?
-- 如何使用 GraphQL ?
-- √ 如何配置自定义 webpack ?
-- 配置站点
-- 区分于其他搭建静态个人博客方式 ?
-- √ 如何使用 css in js 如( styled-components, sass, less) 等?
-- 如何使用 谷歌分析(gatsby-plugin-google-analytics) 或 其他方分析 ?
-- [using-remark](https://using-remark.gatsbyjs.org/)
-- 更新日期
-- 查询博客
-- 自动排序
-- 复制代码
-- 回退操作
-
 <ant-divider></ant-divider>
 ### Node
 
@@ -115,6 +97,123 @@ plugins: [
 
 <ant-divider></ant-divider>
 
+### Progress
+<a name="Progress"></a>
+
+*[添加滚动条显示](https://github.com/dmetivier/gatsby-plugin-page-progress)*
+
+```js
+import React from 'react';
+import { Progress } from 'antd';
+import styled from 'styled-components';
+
+import useScrollPercent from '@/useHooks/useScrollPercent';
+
+const ProgressWrapper = styled(Progress)`
+  &.ant-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    line-height: 1;
+    font-size: 0;
+  }
+
+  .ant-progress-bg {
+    height: 5px !important;
+  }
+`;
+
+export default function ProgressView() {
+  const { percent } = useScrollPercent();
+  return percent ? (
+    <ProgressWrapper
+      percent={percent}
+      showInfo={false}
+      strokeColor={{
+        '0%': '#108ee9',
+        '50': 'purple',
+        '100%': '#87d068',
+      }}
+    />
+  ) : null;
+}
+```
+***useScrollPercent.js***
+```js
+/**
+ * @name: useScrollPercent
+ * @desc: 自定义获取滚动占比
+ */
+
+import { useEffect, useState } from 'react';
+
+function getScrollHeight() {
+  // https://javascript.info/size-and-scroll-window#width-height-of-the-document
+  return Math.max(
+    document.body.scrollHeight,
+    document.documentElement.scrollHeight,
+    document.body.offsetHeight,
+    document.documentElement.offsetHeight,
+    document.body.clientHeight,
+    document.documentElement.clientHeight,
+  );
+}
+
+function getIndicatorPercentageWidth(currentPos, totalScroll) {
+  return (currentPos / totalScroll) * 100;
+}
+
+export default function useScrollPercent() {
+  const [percent, setPercent] = useState(0);
+
+  function scrollHandler() {
+    const { innerHeight } = window;
+    const currentPos = window.scrollY;
+    const scrollHeight = getScrollHeight();
+    const scrollDistance = scrollHeight - innerHeight;
+    setPercent(getIndicatorPercentageWidth(currentPos, scrollDistance));
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', scrollHandler);
+
+    return () => {
+      window.removeEventListener('scroll', scrollHandler);
+    };
+  }, []);
+
+  return { percent };
+}
+```
+**更多参考使用 [react-use](https://github.com/streamich/react-use)**
+
+<ant-divider></ant-divider>
+
+### Logs
+<a name="Logs"></a>
+
+**07-14: 添加滚动条**
+
+<ant-divider></ant-divider>
+
+<h3 id="TODO">TODO</h3>
+
+- √ 如何使用插件 ?
+- 如何使用 GraphQL ?
+- √ 如何配置自定义 webpack ?
+- 配置站点
+- 区分于其他搭建静态个人博客方式 ?
+- √ 如何使用 css in js 如( styled-components, sass, less) 等?
+- 如何使用 谷歌分析(gatsby-plugin-google-analytics) 或 其他方分析 ?
+- [using-remark](https://using-remark.gatsbyjs.org/)
+- 更新日期
+- 查询博客
+- 自动排序
+- 复制代码
+- 回退操作
+- 读取源文件在 markdown 中使用
+
 ![图片](https://source.unsplash.com/random/800x300)
 
 <!-- write-music -->
+
