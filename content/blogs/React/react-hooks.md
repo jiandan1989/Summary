@@ -382,7 +382,7 @@ function UseContext(props) {
   return (
     <CountContext.Provider value={count}>
       <Slider min={1} onChange={changeSliderValue} value={count} />
-      <Form layout="inline">
+      <Form layout='inline'>
         <ChildA />
       </Form>
       {props.children}
@@ -394,10 +394,10 @@ function ChildA() {
   const count = useContext(CountContext);
   return (
     <Fragment>
-      <FormItem label="ChildA">
+      <FormItem label='ChildA'>
         <Badge count={count} style={{ backgroundColor: '#52c41a' }} />
       </FormItem>
-      <FormItem label="ChildB">
+      <FormItem label='ChildB'>
         <ChildB />
       </FormItem>
     </Fragment>
@@ -410,10 +410,9 @@ function ChildB() {
 }
 export default UseContext;
 ```
+
 </code-panel>
 </ant-card>
-
-
 
 ### useReducer
 

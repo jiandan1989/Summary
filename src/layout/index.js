@@ -16,17 +16,14 @@ function Layout({ children, location }) {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <LayoutWrapper>
           <Header location={location} siteTitle={data.site.siteMetadata.title} />
-          <ContentWrapper>
-            {children}
-          </ContentWrapper>
-          {/* <LayoutFooter /> */}
+          <ContentWrapper>{children}</ContentWrapper>
         </LayoutWrapper>
       )}
     />
   );
 }
 
-export default Layout
+export default Layout;

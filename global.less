@@ -224,7 +224,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: -apple-system,BlinkMacSystemFont, 'Microsoft YaHei', 'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol', georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -410,14 +410,16 @@ p {
   padding-top: 0;
   margin-bottom: 1rem;
   font-family: cursive;
-  font-size: 14px;
+  text-indent: 2em;
+  font-size: 13px;
 
   a {
     font-size: 16px;
   }
 
   strong {
-    font-size: 18px;
+    font-size: 16px;
+    text-indent: 1rem;
     font-weight: 700;
   }
 }
@@ -545,6 +547,10 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+
+  p {
+    text-indent: 0;
+  }
 }
 ol li {
   padding-left: 0;
@@ -604,6 +610,7 @@ thead {
 }
 td,
 th {
+  font-size: 12px;
   text-align: left;
   border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
   font-feature-settings: 'tnum';
@@ -612,8 +619,8 @@ th {
   -webkit-font-feature-settings: 'tnum';
   padding-left: 0.96667rem;
   padding-right: 0.96667rem;
-  padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
+  padding-top: 0.525rem;
+  padding-bottom: calc(0.525rem - 1px);
 }
 th:first-child,
 td:first-child {

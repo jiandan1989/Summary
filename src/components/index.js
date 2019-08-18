@@ -4,6 +4,7 @@
 
 import { Divider, Button, Card, PageHeader, Collapse } from 'antd';
 import AntdTable from '@/components/AntdTable';
+import FilterPage from '@/components/CSS/FilterPage';
 import DynamicInput from '@/components/DynamicInput';
 import MarkDownLink from '@/components/MarkDownLink';
 import KeywordWeight from '@/components/KeywordWeight';
@@ -19,11 +20,12 @@ const { Panel: CollapsePanel } = Collapse;
 
 const allComponents = {
   UseState,
+  CodePanel,
+  AntdTable,
   UseReducer,
   UseContext,
   ClassState,
-  CodePanel,
-  AntdTable,
+  FilterPage,
   MarkDownLink,
   ContextParent,
   DynamicInput,

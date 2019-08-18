@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="test">测试捕获 / 目标 / 冒泡</div>
+    <a id="stopPropagation" href="http://google.com">点击阻止默认行为</a>
+    <form onsubmit="submit">
+      <button type="submit">button</button>
+    </form>
+
+    <script>
+      window.onload = function() {
+        // 捕获 目标 冒泡
+        function submit(e) {
+          e.preventDefault();
+          console.log('submit');
+        }
+        const div = document.getElementById('test');
+        const body = document.body;
+        
+
+        document.addEventListener('click', function() {
+          console.log('document');
+        });
+
+        body.addEventListener('click', function() {
+          console.log('body');
+        });
+
+        div.addEventListener('click', function() {
+          console.log('div');
+        });
+
+        window.addEventListener('click', function() {
+          console.log('window');
+        });
+        // 事件处理兼容 IE
+        const EventUtil = {
+          addHandler: function(element, type, handler) {
+            if (element.addEventListener) {
+              element.addEventListener(type, handler, false);
+            } else if (element.attachEvent) {
+              element.attachEvent('on' + type, handler);
+            } else {
+              element['on' + type] = handler;
+            }
+          },
+          removeHandler: function(element, type, handler) {
+            if (element.removeHandler) {
+              element.removeHandler(type, handler, false);
+            } else if (element.detachEvent) {
+              element.detachEvent('on' + type, handler);
+            } else {
+              element['on' + type] = null;
+            }
+          },
+        };
+
+        const link = document.getElementById('stopPropagation');
+        function stopPropagation(e) {
+          e.preventDefault();
+          console.log('阻止了跳转行为!');
+        }
+        link.addEventListener('click', stopPropagation, false);
+      };
+    </script>
+  </body>
+</html>
