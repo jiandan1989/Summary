@@ -11,7 +11,7 @@ module.exports = [{
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `pages`,
-      path: `${__dirname}/src/pages/`,
+      path: `${__dirname}/src/pages`,
     },
   },
   {
@@ -94,16 +94,16 @@ module.exports = [{
   {
     resolve: "gatsby-plugin-ts-loader",
     options: {
-      tslint: false // false or exclude to disable tslint
+      tslint: true // false or exclude to disable tslint
     }
   },
   // {
   //   resolve: `gatsby-plugin-typescript`,
-  //   options: {
-  //     isTSX: true, // defaults to false
-  //     jsxPragma: `jsx`, // defaults to "React"
-  //     allExtensions: true, // defaults to false
-  //   },
+  //   // options: {
+  //   //   isTSX: false, // defaults to false
+  //   //   // jsxPragma: `jsx`, // defaults to "React"
+  //   //   allExtensions: true, // defaults to false
+  //   // },
   // },
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,

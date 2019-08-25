@@ -13,15 +13,24 @@ export default class ClassState extends Component {
     this.setState((prevState) => ({
       count: prevState.count + 1,
     }));
-  }
+  };
 
+  decrease = () => {
+    this.setState((prevState) => ({
+      count: prevState.count - 1,
+    }));
+  }
 
   render() {
     return (
-      <Card title="Class State" bordered={false} bodyStyle={{ padding: '16px 0'}}>
-        <Button type="primary" onClick={this.addCount}>Add</Button>
+      <Card title="Class State" bordered={false} bodyStyle={{ padding: '16px 0' }}>
+        <Button type="primary" onClick={this.addCount}>
+          Add
+        </Button>&nbsp;
+        <Button type="danger" onClick={this.decrease}>
+          Decrease
+        </Button>
         <Badge count={this.state.count} style={{ marginLeft: 16 }} /> <br />
-
         {this.props.children}
       </Card>
     );

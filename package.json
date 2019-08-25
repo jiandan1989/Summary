@@ -15,6 +15,7 @@
   "dependencies": {
     "antd": "^3.19.8",
     "babel-plugin-styled-components": "^1.10.4",
+    "enquire-js": "^0.2.1",
     "gatsby": "2.9.10",
     "gatsby-image": "^2.2.3",
     "gatsby-plugin-algolia": "^0.3.0",
@@ -44,6 +45,13 @@
     "less": "^3.9.0",
     "prismjs": "^1.16.0",
     "prop-types": "^15.7.2",
+    "rc-animate": "^2.6.0",
+    "rc-banner-anim": "^2.2.3",
+    "rc-drawer": "^1.7.0",
+    "rc-queue-anim": "~1.8.0",
+    "rc-scroll-anim": "~2.5.7",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^2.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
@@ -56,6 +64,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^16.9.2",
     "gh-pages": "^2.0.1",
     "prettier": "^1.18.2"
   }

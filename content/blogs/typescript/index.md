@@ -12,11 +12,15 @@ modifyDate: "2019-06-30"
 
 [官网](https://www.typescriptlang.org/)
 
+<ant-divider></ant-divider>
+
 <a name="nJqxt"></a>
 <h3 id="介绍">介绍</h3>
 被称之为加强版JS, JS为动态语言 只在运行执行时才能明确知道变量 / 参数的类型, 而 TS 在编写编译前就已经将类型固定, 等到有错误时提早发现以便不会在运行时出错<br />
 
+<ant-divider></ant-divider>
 
+<a name="安装"></a>
 <h3 id="安装">安装</h3>
 
 **使用 npm 全局安装 typescript 解析**<br />

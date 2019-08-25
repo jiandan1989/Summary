@@ -3,7 +3,6 @@
  */
 
 import styled from 'styled-components'
-import { Menu } from 'antd'
 
 export const LayoutWrapper = styled.div`
   height: 100vh;
@@ -11,17 +10,8 @@ export const LayoutWrapper = styled.div`
 
 export const ContentWrapper = styled.main`
   margin: 0 auto;
-  max-width: 960px;
   height: calc(100% - 48px);
-  padding: 24px;
 `
-
-export const HeaderWrapper = styled(Menu)`
-  margin: 0 auto;
-  max-width: 960px;
-  margin-bottom: 12px;
-`
-
 export const BlogButtonWrapper = styled.a`
   padding: 8px 12px;
   text-align: center;
