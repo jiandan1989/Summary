@@ -4,27 +4,16 @@
  */
 
 import React from 'react';
-import { Link } from 'gatsby';
-import { Menu, Affix } from 'antd';
+import { Affix } from 'antd';
+import Nav from './Nav';
 
-import { HeaderWrapper } from '@/components/wrapper';
 import ProgressView from './Progress';
 
 function Header() {
   return (
     <Affix>
       <ProgressView />
-      <HeaderWrapper mode="horizontal">
-        <Menu.Item key="home">
-          <Link to="/">首页</Link>
-        </Menu.Item>
-        <Menu.Item key="blogs">
-          <Link to="/blogs">博客</Link>
-        </Menu.Item>
-        <Menu.Item key="about">
-          <Link to="/about">关于我</Link>
-        </Menu.Item>
-      </HeaderWrapper>
+      <Nav />
     </Affix>
   );
 }

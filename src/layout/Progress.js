@@ -31,8 +31,7 @@ export default function ProgressView() {
       percent={percent}
       showInfo={false}
       strokeColor={{
-        '0%': '#108ee9',
-        '50': 'purple',
+        '0%': '#fff',
         '100%': '#87d068',
       }}
     />

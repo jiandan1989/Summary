@@ -40,7 +40,7 @@ function BlogPostTemplate({ data, pageContext, location }) {
       <PageHeader
         bordered={false}
         onBack={() => backPrevPage()}
-        style={{ height: '100%' }}
+        style={{ height: '100%', maxWidth: 1200, margin: '0 auto' }}
         title={post.frontmatter.title}
         subTitle={formatDate(post.frontmatter.date)}>
         {/* <div dangerouslySetInnerHTML={{ __html: post.html }} /> */}

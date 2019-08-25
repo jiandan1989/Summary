@@ -27,3 +27,20 @@ export function hyphenateAntd(str) {
 }
 
 export const isClient = typeof window === 'object';
+
+export function getRangeNum(unit, range) {
+  if (!unit) return range;
+  switch (unit) {
+    case 'px':
+    case 'deg':
+      return range;
+    case '%':
+      return range;
+    default:
+      return range;
+  }
+}
+
+export function getStepNum(range, type) {
+  return type ? (range * 0.1).toFixed(2) : range;
+}

@@ -43,23 +43,6 @@ function getMaxNum(type) {
   return 1;
 }
 
-function getRangeNum(unit, range) {
-  if (!unit) return range;
-  switch (unit) {
-    case 'px':
-    case 'deg':
-      return range;
-    case '%':
-      return range;
-    default:
-      return range;
-  }
-}
-
-function getStepNum(range, type) {
-  return type ? (range * 0.1).toFixed(2) : range;
-}
-
 function getStyle(type, range) {
   return FILTERS[type] && FILTERS[type].unit ? `${type}(${range}${FILTERS[type].unit})` : `${type}(${range})`;
 }
