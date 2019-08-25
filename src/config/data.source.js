@@ -351,7 +351,7 @@ export const Content110DataSource = {
   },
   button: {
     className: '',
-    children: { a: { className: 'button', href: 'javascript:;', children: '唐诗三百首' } },
+    children: { a: { className: 'button', href: '/', children: '唐诗三百首' } },
   },
 };
 export const Content120DataSource = {

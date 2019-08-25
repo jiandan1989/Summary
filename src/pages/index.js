@@ -5,13 +5,13 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { BackTop } from 'antd';
 
-import Banner from './components/Banner';
-// import Footer from './components/Footer';
-import Content8 from './components/Content8';
-import Content9 from './components/Content9';
-import Content10 from './components/Content10';
-import Content11 from './components/Content11';
-import Content12 from './components/Content12';
+import Banner from '@/components/AntMotion/Banner';
+// import Footer from '@/components/AntMotion/Footer';
+import Content8 from '@/components/AntMotion/Content8';
+import Content9 from '@/components/AntMotion/Content9';
+import Content10 from '@/components/AntMotion/Content10';
+import Content11 from '@/components/AntMotion/Content11';
+import Content12 from '@/components/AntMotion/Content12';
 
 import {
   Banner30DataSource,
@@ -21,8 +21,8 @@ import {
   Content110DataSource,
   Content120DataSource,
   // FooterData,
-} from './components/data.source';
-import './components/less/antMotionStyle.less';
+} from '@/config/data.source';
+import '@/components/AntMotion/less/antMotionStyle.less';
 
 import BlogLayout from '@/layout';
 import SEO from '@/components/seo';
