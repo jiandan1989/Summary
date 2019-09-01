@@ -48,9 +48,9 @@ Array.of(2); // [2]
 Array(2); // [, ,] 两个由undefined 组成的数组
 ```
 
-### [push](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+### push
 
-在数组的末尾添加新的元素,并返回 新的长度,也可以调用函数的`call` 和 `apply`方法对伪数组操作数组的方法
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/push)**在数组的末尾添加新的元素,并返回 新的长度,也可以调用函数的`call` 和 `apply`方法对伪数组操作数组的方法
 
 ```js
 const a = [1, 2];
@@ -63,17 +63,19 @@ a.push(4, 5);
 a.length === 5; // true
 ```
 
-### [pop](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+### pop
 
-删除数组中的最后一个元素,并返回删除的元素,如果该数组为空,则返回 `undefined`
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)**删除数组中的最后一个元素,并返回删除的元素,如果该数组为空,则返回 `undefined`
 
 ```js
-const a = [];
+const a = [1, 2, 3, 4, 5];
+a.pop(); // 5
+console.log(a); // [1, 2, 3, 4]
 ```
 
-### [shift](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+### shift
 
-删除数组中下标为`0`的元素,并返回该元素,会修改元素组,如果数组为空,则返回`undefined`
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)**删除数组中下标为`0`的元素,并返回该元素,会修改元素组,如果数组为空,则返回`undefined`
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -83,9 +85,9 @@ a.shift(); // 1
 a.length === 4; // true
 ```
 
-### [unshift](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+### unshift
 
-在数组下标为`0`的元素前添加一个新的元素,并返回新的长度
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)**在数组下标为`0`的元素前添加一个新的元素,并返回新的长度
 
 ```js
 const a = [2, 3, 4, 5];
@@ -97,9 +99,9 @@ a.unshift(1); // [1, 2, 3, 4, 5]
 a.length === 5; // true
 ```
 
-### [fill](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
+### fill
 
-用一个固定值填充数组从起始位置到结束位置中间所有的值,意思也就是替换掉中间的值,传参`arr.fill(value, start, end) value: 值, start: 开始位置, end: 结束位置`,如果传入的`start` 或者 `end` 为负数,则使用数组的长度和其相加的位置计算`start + length` 和 `end + length`, 不包含 `end`的位置
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)**用一个固定值填充数组从起始位置到结束位置中间所有的值,意思也就是替换掉中间的值,传参`arr.fill(value, start, end) value: 值, start: 开始位置, end: 结束位置`,如果传入的`start` 或者 `end` 为负数,则使用数组的长度和其相加的位置计算`start + length` 和 `end + length`, 不包含 `end`的位置
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -152,10 +154,9 @@ a.includes(1); // true
 a.includes(4); // false
 ```
 
-### [indexOf](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+### indexOf
 
-查找数组中某一个元素的下标值,若数组中不包含该元素,则返回 `-1`,可用于判断数组中是否包含某一个元素, 可接收第二参数作为开始位置进行查找`arr.indexOf(ele, fromIndex)`, 该方法使用[严格相等](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)判断
-
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)**查找数组中某一个元素的下标值,若数组中不包含该元素,则返回 `-1`,可用于判断数组中是否包含某一个元素, 可接收第二参数作为开始位置进行查找`arr.indexOf(ele, fromIndex)`, 该方法使用[严格相等](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Using_the_Equality_Operators)判断
 
 ```js
 const a = [1, 2, 3];
@@ -164,9 +165,9 @@ a.indexOf(4); // -1
 a.indexOf(1, 4); // -1
 ```
 
-### [lastIndexOf](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
+### lastIndexOf
 
-和 `indexOf`方法类似,此方法是从数组末尾向前开始查找,接收第二参数作为开始位置`arr.lastIndexOf(ele, fromIndex)`
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)**和 `indexOf`方法类似,此方法是从数组末尾向前开始查找,接收第二参数作为开始位置`arr.lastIndexOf(ele, fromIndex)`
 
 ```js
 var array = [2, 5, 9, 2];
@@ -184,9 +185,9 @@ index = array.lastIndexOf(2, -1);
 // index is 3
 ```
 
-### [find](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+### find
 
-查找数组中符合条件的元素,并返回第一个符合条件的元素,接收一个函数作为条件判断
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/find)**查找数组中符合条件的元素,并返回第一个符合条件的元素,接收一个函数作为条件判断
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -196,9 +197,9 @@ a.find(function(x) {
 }); // 2
 ```
 
-### [findIndex](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+### findIndex
 
-查找数组中符合条件的元素的下标值,返回该元素在数组中的下标,接收一个函数作为条件判断`arr.findIndex(function(ele, index, array) {}) ele: 循环当前元素, index: 当前元素的下标, array: 数组本身`
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)**查找数组中符合条件的元素的下标值,返回该元素在数组中的下标,接收一个函数作为条件判断`arr.findIndex(function(ele, index, array) {}) ele: 循环当前元素, index: 当前元素的下标, array: 数组本身`
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -208,9 +209,9 @@ a.findIndex(function(x) {
 }); // 1
 ```
 
-### [forEach](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+### forEach
 
-对数组中的每一个元素进行函数调用, 返回`undefined`, 可用于计算,函数事件绑定
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)**对数组中的每一个元素进行函数调用, 返回`undefined`, 可用于计算,函数事件绑定
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -229,9 +230,9 @@ b.forEach(function(ele) {
 });
 ```
 
-### [map](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+### map
 
-对数组进行迭代, 返回经过计算之后的数组, 不修改原数组
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/map)**对数组进行迭代, 返回经过计算之后的数组, 不修改原数组
 
 ```js
 const a = [1, 2, 3];
@@ -240,9 +241,9 @@ a.map(function(x) {
 }); // [2, 3, 4]
 ```
 
-### [filter](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+### filter
 
-对数组进行迭代,并将符合条件,返回`true`的元素作为一个数组返回,不修改原数组
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)**对数组进行迭代,并将符合条件,返回`true`的元素作为一个数组返回,不修改原数组
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -252,9 +253,9 @@ a.filter(function(x) {
 }); // [2, 4]
 ```
 
-### [reduce](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+### reduce
 
-将数组迭代,并按照接收的函数作为计算条件,返回计算后的结果,可接收第二参数作为默认值
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)**将数组迭代,并按照接收的函数作为计算条件,返回计算后的结果,可接收第二参数作为默认值
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -280,9 +281,9 @@ b.reduce(
 ); // { age: 3 }
 ```
 
-### [reduceRight](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight)
+### reduceRight
 
-和 `reduce` 方法类似,该方法是从后向前进行迭代计算
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight)**和 `reduce` 方法类似,该方法是从后向前进行迭代计算
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -296,9 +297,9 @@ a.reduceRight(function(x, y) {
 }, ''); // '54321'
 ```
 
-### [every](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+### every
 
-检测是否所有的数组元素都符合传入条件,接收 函数 作为条件判断
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/every)**检测是否所有的数组元素都符合传入条件,接收 函数 作为条件判断
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -308,9 +309,9 @@ a.every(function(x) {
 }); // false
 ```
 
-### [some](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+### some
 
-和 `every` 方法类似,检测 数组中是否有符合条件的元素,返回 `Boolean`, 只要有一个元素符合 则退出检测
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/some)**和 `every` 方法类似,检测 数组中是否有符合条件的元素,返回 `Boolean`, 只要有一个元素符合 则退出检测
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -320,9 +321,9 @@ a.some(function(x) {
 }); // true
 ```
 
-### [copyWithin](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
+### copyWithin
 
-浅复制数组的一部分到同一数组中的另一个位置，并返回它，而不修改其大小。
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)**浅复制数组的一部分到同一数组中的另一个位置，并返回它，而不修改其大小。
 
 ### [join](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
@@ -336,9 +337,9 @@ a.join(); // 1, 2, 3
 a.join('-'); // 1-2-3
 ```
 
-### [concat](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+### concat
 
-将两个或者多个数组进行合并,不会修改原数组,返回一个新的数组
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)**将两个或者多个数组进行合并,不会修改原数组,返回一个新的数组
 
 ```js
 const a = [1, 2, 3];
@@ -350,9 +351,9 @@ const c = a.concat(b);
 c; // [1, 2, 3, 4, 5]
 ```
 
-### [slice](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+### slice
 
-将一个数组进行浅拷贝,返回一个新的数组,不修改原数组,可接收两个参数`arr.slice(start, end)`,将拷贝从`start`(包含`start`位置) 到`end`(不包含`end`)结束位置的元素, 如果只有一个参数,则默认结束`end` 为数组长度减 1(`arr.length - 1`),
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)**将一个数组进行浅拷贝,返回一个新的数组,不修改原数组,可接收两个参数`arr.slice(start, end)`,将拷贝从`start`(包含`start`位置) 到`end`(不包含`end`)结束位置的元素, 如果只有一个参数,则默认结束`end` 为数组长度减 1(`arr.length - 1`),
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -360,9 +361,9 @@ const a = [1, 2, 3, 4, 5];
 a.slice(0, 2); // [1, 2]
 ```
 
-### [splice](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+### splice
 
-删除元素, 替换元素,可接受三个参数`arr.splice(index, num, replace) index: 删除元素的下标开始位置, num: 删除元素的个数, replace: 替换删除掉的元素`, 返回删除的元素,若删除 0 个元素,返回空数组, 此方法会修改原数组
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)**删除元素, 替换元素,可接受三个参数`arr.splice(index, num, replace) index: 删除元素的下标开始位置, num: 删除元素的个数, replace: 替换删除掉的元素`, 返回删除的元素,若删除 0 个元素,返回空数组, 此方法会修改原数组
 
 ```js
 const a = [1, 2, 3, 4, 5];
@@ -372,13 +373,113 @@ a.splice(0, 1, '聂晓飞');
 
 <ant-divider></ant-divider>
 
+## 新增
+
+### flat
+
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)**
+方法会按照一个可指定的深度递归遍历数组, 并将所有元素与遍历到的子数组中的元素合并为一个新数组返回, 可以接收一个参数, 表示为递归的层级, 默认 1, 如果嵌套层级较深, 可以使用第二个指定的层级参数
+
+```js
+const a = [1, 2, 3, [4, 5]];
+
+// 在 a 变量中保存了三个单元素 和一个 数组元素, 如何把合并为5个单元素
+// 其实就这么简单
+const b = a.flat(); // [1, 2, 3, 4, 5]
+```
+
+- 假设放在没有提供这种方法情况下怎么实现呢
+  - 简单的话可以使用 concat(合并一个或者多个数组, 不会修改原数组)进行拼接, 但只能用于一维数组的合并
+
+```js
+function flatSingle(arr) {
+  return [].concat(...arr);
+}
+
+flatSingle(a); // [1, 2, 3, 4, 5]
+```
+
+- 操作多维数组或者不知嵌套层级的数组呢, 可以使用高阶函数 reduce 进行实现
+
+```js
+const t = [1, 2, 3, [4, 5, [6, 7, [8, 9]]]];
+function flat(arr) {
+  return arr.reduce((prev, next) => (Array.isArray(next) ? prev.concat(flat(next)) : prev.concat(next)), []);
+}
+
+flat(t); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+当然还有很多种方法可以实现, [更多参考](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flat#%E4%BD%BF%E7%94%A8_reduce_%E4%B8%8E_concat), 无论用什么样的方法实现, 我们需要的都是更少的代码实现更多的功能, 还需要易于维护和修复问题, 也可以使用 for 循环(考虑也是需要递归, 只是二维数组的话, 直接遍历就好)
+
+### flatMap
+
+**[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)**首先使用映射函数映射每个元素, 然后将结果压缩成一个新数组, 与 map 和深度值 1 的 flat 几乎相同, 但 flatMap 通常在合并成一种方法的效率更高一点, 接收一个回调函数, 回调函数有三个参数 和 map 一样
+
+- currentValue: 当前遍历的值
+- index: 当前遍历的下标
+- array: 当前遍历的数组
+- 接收第二个参数: thisArg
+
+```js
+const arr = [1, 2, 3, 4, 5];
+
+arr.flatMap((item) => item * 2); // 返回新数组 [2, 4, 6, 8, 10], 感觉和 map 没什么区别嘛
+```
+
+例如: 示例中还展示了和 map 的不同之处
+
+```js
+let arr = ['今天天气不错', '', '早上好'];
+
+arr.map((s) => s.split('')); // 只是单纯的遍历, 并没有将遍历得到的值进行合并
+// [["今", "天", "天", "气", "不", "错"],[],["早", "上", "好"]]
+
+// 遍历数组, 并对其进行合并为一维数组
+arr.flatMap((s) => s.split(''));
+// ["今", "天", "天", "气", "不", "错", "早", "上", "好"]
+```
+
+再如: 对树形结构的值进行合并
+**[测试数据](https://github.com/niexiaofei1988/data/blob/master/data/all_china_tree.json)**
+
+```js
+// 此种方法只能是如 flat 递归层级为 1时的合并数组, 不能把子集的再次进行合并, 可以再次进行合并
+function flatTreeData(arr) {
+  return arr.flatMap((item) => item.children);
+}
+
+// todo: 这是一个失败的测试, 得到的数组长度是对的, 但每一项都是 undefined, 至少层级为1时可以这么搞
+function flatTreeDataDeep(arr) {
+  return arr.flatMap((item) =>
+    Array.isArray(item.children) ? [].concat(flatTreeDataDeep(item.children)) : item.children,
+  );
+}
+
+// 伪代码
+function flatTree(array) {
+  return array.reduce((prev, next) => {
+    if (Array.isArray(next.children)) {
+      prev.push(flatTree(next.children));
+      return prev;
+    }
+    prev.push(next);
+    return prev;
+  }, []);
+}
+```
+
+<ant-divider></ant-divider>
+
+<i-back-top></i-back-top>
+
 ### 总结
 
 - 修改原数组长度的方法: `push, pop, shift, unshift`
 
 - 修改原数组的方法: `sort, reverse, fill`
 
-- 遍历方法: `forEach, every, some, filter, map`
+- 遍历方法: `forEach, every, some, filter`
 
 - 查找方法: `includes, find, findIndex, indexOf, lastIndexOf`
 
@@ -387,11 +488,11 @@ a.splice(0, 1, '聂晓飞');
 - 转换方法: `of, from`
 
 - 数组去重新方法: `[...new Set(arr)]`
+- 
+- 高阶函数: `flat faltMap map reduce filter`
 
 <ant-divider></ant-divider>
 
 ```js
 // @TODO 下一篇将会整理一些关于数组中的某些业务操作
 ```
-
-<i-back-top></i-back-top>

@@ -1,13 +1,29 @@
 ---
 path: '/utils'
-title: '常用小工具'
-date: '2019-08-18'
-modifyDate: '2019-08-18'
+title: '小工具'
+date: '2019-09-01'
+modifyDate: '2019-09-01'
 ---
 
 <!-- - [地址 1](https://segmentfault.com/a/1190000011557368)
 - [地址 2](https://www.zhihu.com/question/46943112)
 - [地址 3](https://github.com/jawil/blog/issues/24) -->
+
+**检测是否支持 Base64**
+
+```javascript
+function isSupportBase64() {
+  var data = new Image();
+  var support = true;
+  data.onload = data.onerror = function() {
+    if (this.width != 1 || this.height != 1) {
+      support = false;
+    }
+  };
+  data.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+  return support;
+}
+```
 
 **获取 URL 参数**
 
@@ -53,6 +69,51 @@ export const queryByES5One = (search) => {
     })({});
   })(search.split('?')[1]);
 };
+```
+
+**检测是否支持 Flash**
+
+```javascript
+function flashVersion() {
+  var version;
+  try {
+    version = navigator.plugins['Shockwave Flash'];
+    version = version.description;
+  } catch (ex) {
+    try {
+      version = new ActiveXObject('ShockwaveFlash.ShockwaveFlash').GetVariable('$version');
+    } catch (ex2) {
+      version = '0.0';
+    }
+  }
+  version = version.match(/\d+/g);
+  return parseFloat(version[0] + '.' + version[1], 10);
+}
+```
+
+**横竖屏切换**
+
+```javascript
+(function(doc, win) {
+  var docEl = doc.documentElement,
+    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    recalc = function() {
+      var clientWidth = docEl.clientWidth;
+      if (!clientWidth) {
+        return;
+      }
+      if (clientWidth < 640) {
+        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+      } else {
+        docEl.style.fontSize = 100 + 'px';
+      }
+    };
+  if (!doc.addEventListener) {
+    return;
+  }
+  win.addEventListener(resizeEvt, recalc, false);
+  doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
 ```
 
 **随机生成 6 位数字验证码**
