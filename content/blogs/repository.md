@@ -2282,49 +2282,49 @@ BBC Sound Effects 提供音讯格式为 WAV，可直接从网页预览、下载�
 
 ### more
 - [x] [**豆瓣电影**](http://movie.douban.com/): 提供最新的电影介绍和影评、评分。
-- [x] [**中国美术馆**](www.namoc.org/): 中国美术馆官方网站。
-- [x] [**蜂鸟网**](www.fengniao.com): 摄影爱好者分享摄影技巧和作品的网站。
-- [x] [**肉丁网**](www.rouding.com): 手工DIY资料学习网站。
-- [x] [**TOPYS**](www.topys.cn): 创意分享网站，欣赏优秀的广告与设计
-- [x] [**好戏网**](www.mask9.com): 提供喜剧推荐及城市喜剧资讯，涉及歌剧、芭蕾、话剧等多个方面。
-- [x] [**Justin Guitar**](www.justinguitar.com/): 免费的吉他课程。
-- [x] [**落网**](www.luoo.net/): 推荐国内外独立音乐的网站。
-- [x] [**鸠摩搜书**](www.jiumodiary.com): 实用的电子书搜书平台。
+- [x] [**中国美术馆**](http://www.namoc.org/): 中国美术馆官方网站。
+- [x] [**蜂鸟网**](http://www.fengniao.com/): 摄影爱好者分享摄影技巧和作品的网站。
+- [x] [**肉丁网**](http://www.rouding.com): 手工DIY资料学习网站。
+- [x] [**TOPYS**](http://www.topys.cn): 创意分享网站，欣赏优秀的广告与设计
+- [x] [**好戏网**](http://www.mask9.com): 提供喜剧推荐及城市喜剧资讯，涉及歌剧、芭蕾、话剧等多个方面。
+- [x] [**Justin Guitar**](http://www.justinguitar.com/): 免费的吉他课程。
+- [x] [**落网**](http://www.luoo.net/): 推荐国内外独立音乐的网站。
+- [x] [**鸠摩搜书**](http://www.jiumodiary.com): 实用的电子书搜书平台。
 - [x] [**书格**](http://shuge.org/): 提供估计阅读的数字图书馆。
-- [x] [**读书人**](www.duxieren.com/): 一个聚合了书评杂志、书评博客。中英文读书资源的读书网站。
+- [x] [**读书人**](http://www.duxieren.com/): 一个聚合了书评杂志、书评博客。中英文读书资源的读书网站。
 - [x] [**每日一文**](https://meiriyiwen.com/): 每天一遍精彩文章，让读书成为一种乐趣。
-- [x] [**十五言**](www.15yan.com/): 高质量的阅读和写作社区。
+- [x] [**十五言**](http://www.15yan.com/): 高质量的阅读和写作社区。
 - [x] [**豆瓣阅读**](http://read.douban.com/): 优秀数字作品的阅读、出版平台，提供个人作者原则作品和出版社精品电子书。
-- [x] [**云悦读**](www.iydu.net/): 一个专注于分享有趣文字的阅读网站。
-- [x] [**下厨房**](www.xiachufang.com/): 一个分享实用菜谱做法和饮食知识的平台。
-- [x] [**创客贴**](www.chuangkit.com/dc.html)
+- [x] [**云悦读**](http://www.iydu.net/): 一个专注于分享有趣文字的阅读网站。
+- [x] [**下厨房**](http://www.xiachufang.com/): 一个分享实用菜谱做法和饮食知识的平台。
+- [x] [**创客贴**](http://www.chuangkit.com/dc.html)
 - [x] [**Smallpdf**](http://smallpdf.com/cn): PDF在线转换格式的网站
 - [x] [**幕布**](http://mubu.io/): 在线思维笔记工具，帮助整理结构化内容，构建清晰的思维逻辑。
 - [x] [**丁香医生**](http://dxy.com/): 提供医学健康内容与医疗健康服务的平台。
 - [x] [**千图网**](http://www.58pic.com/): 免费下载设计素材的网站。
 - [x] [**果壳任意门**](http://gate.guokr.com): 汇集了科技、运动、艺术、生活等各类常见的优质网站，如同一个在线收藏夹。
-- [x] [**译言网**](www.yeeyan.org/): 开放的社区翻译平台，可以提供发现的精彩外文内容，翻译原文库的文章。
-- [x] [**沪江英语学习网**](www.hienglish.com/): 英语学习资讯网站，英语学习平台。
-- [x] [**普特英语听力**](www.putclub.com/): 实用的英语听力训练社区。
-- [x] [**魔方电影**](www.mofunenglish.com/): 看电影学习英语的网站，提高口语和听力。
-- [x] [**小语种口语网**](www.tukkk.com/): 提供多种小语种口语练习的网站。
-- [x] [**声同小语种**](www.somdom.com/): 小语种学院论坛，提供泰语、西班牙语、法语、阿拉伯语等学院。
-- [x] [**Lang-8**](www.lang-8.com/): 免费学习多种语言的网站，用户可以上传自己写的外语短文，母语者将会帮助修改你的文章。
+- [x] [**译言网**](http://www.yeeyan.org/): 开放的社区翻译平台，可以提供发现的精彩外文内容，翻译原文库的文章。
+- [x] [**沪江英语学习网**](http://www.hienglish.com/): 英语学习资讯网站，英语学习平台。
+- [x] [**普特英语听力**](http://www.putclub.com/): 实用的英语听力训练社区。
+- [x] [**魔方电影**](http://www.mofunenglish.com/): 看电影学习英语的网站，提高口语和听力。
+- [x] [**小语种口语网**](http://www.tukkk.com/): 提供多种小语种口语练习的网站。
+- [x] [**声同小语种**](http://www.somdom.com/): 小语种学院论坛，提供泰语、西班牙语、法语、阿拉伯语等学院。
+- [x] [**Lang-8**](http://www.lang-8.com/): 免费学习多种语言的网站，用户可以上传自己写的外语短文，母语者将会帮助修改你的文章。
 - [x] [**口语伙伴**](http://qidian.isayb.com/index.php): 含公共英语、国外就学、求职面试、社交英语、生活英语等模块口语训练。
-- [x] [**多邻国**](www.duolingo.cn): 免费的外语学习网站，目前向中文使用者提供英语、西班牙语课程。
+- [x] [**多邻国**](http://www.duolingo.cn): 免费的外语学习网站，目前向中文使用者提供英语、西班牙语课程。
 - [x] [**AppCan-HTML5**](http:edu.appcan.cn/): 移动应用开发平台。
 - [x] [**中国科普博览**](http://www.kepu.net.cn/gb/index.html): 没有围墙的博物馆，中科院网络化科学传播平台。
 - [x] [**科学松鼠会**](http://songshuhui.net/): 致力于在大众文化层面传播科学的网站。
-- [x] [**十万个为什么**](www.10why.net/): 在线版《十万个为什么》，青少年百科全书。
+- [x] [**十万个为什么**](http://www.10why.net/): 在线版《十万个为什么》，青少年百科全书。
 - [x] [**一席**](http://yixi.tv): 以现场演讲为特色，其网站上可以观看往期演讲视频。
 - [x] [**自然志**](http://ziranzhi.com/category/naturalism): 用影像和文字记录自然的科普网站。
-- [x] [**世界数字图书馆**](www.wdl.org/zh/): 观赏来自世界各国图书馆的珍贵手稿、地图、建筑图、摄影等文化瑰宝。
-- [x] [**大桔灯（万成文库改版）**](www.dajudeng.com): 提供各类文档免费下载。
-- [x] [**读秀学术搜索与文献传递系统**](www.duxin.com): 收录230余万种中文图书题录信，提供原文传送服务。
+- [x] [**世界数字图书馆**](http://www.wdl.org/zh/): 观赏来自世界各国图书馆的珍贵手稿、地图、建筑图、摄影等文化瑰宝。
+- [x] [**大桔灯（万成文库改版）**](http://www.dajudeng.com): 提供各类文档免费下载。
+- [x] [**读秀学术搜索与文献传递系统**](http://www.duxin.com): 收录230余万种中文图书题录信，提供原文传送服务。
 - [x] [**万方数据**](http://c.g.wanfangdata.com.cn): 学术论文、期刊、外文文献等学术资料一站搜索。
-- [x] [**CALIS高校学位轮文库**](www.calis.edu.cn/): 查询国内学位论文全文。
-- [x] [**超星网**](www.chaoxing.com): 网络书库，借助学校图书馆可以免费浏览各类读物和学术专著。
-- [x] [**中国科学引文数据库**](www.sdb.scdl.ac.cn/): 检索在国内期刊发表过的论文被引用情况。
+- [x] [**CALIS高校学位轮文库**](http://www.calis.edu.cn/): 查询国内学位论文全文。
+- [x] [**超星网**](http://www.chaoxing.com): 网络书库，借助学校图书馆可以免费浏览各类读物和学术专著。
+- [x] [**中国科学引文数据库**](http://www.sdb.scdl.ac.cn/): 检索在国内期刊发表过的论文被引用情况。
 - [x] [**国家哲学社会科学学术期刊数据库**](http://nssd.org): 国家级哲学社会科学信息平台，在线阅读数百种期刊。
 - [x] [**小木虫**](http://muchong.com): 学术科研互动社区，包括科研问答、论文投稿与基金申请经验等分享。
 - [x] [**VIPExam**](http://open.vipexam.org/): 提供各种领域的热门考试题目。
@@ -2369,7 +2369,7 @@ BBC Sound Effects 提供音讯格式为 WAV，可直接从网页预览、下载�
 <!-- - [x] [**Understanding Domain Entities [with Examples] - DDD w/ TypeScript | Khalil Stemmler - JavaScript Developer / Designer**](https://khalilstemmler.com/articles/typescript-domain-driven-design/entities/?fbclid=IwAR1bgOkp6cbWmxUx4PwH9xB48-1jka-exMbg-3O36eZe6uK-ug9zMvcd7DA) -->
 <!-- - [x] [**A闪网 - 仿Magic Touch中的手写识别算法**](http://www.ashan.org/archives/685) -->
 <!-- - [x] [**Uxtools.co | Home**](https://uxtools.co/) -->
-<!-- - [x] [**收藏｜国内外代码托管平台汇总 - 今日头条(www.toutiao.com)**](http://www.toutiao.com/a6405697433892684034/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article&utm_source=mobile_qq&iid=9294793933&utm_medium=toutiao_android) -->
+<!-- - [x] [**收藏｜国内外代码托管平台汇总 - 今日头条(http://www.toutiao.com)**](http://www.toutiao.com/a6405697433892684034/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article&utm_source=mobile_qq&iid=9294793933&utm_medium=toutiao_android) -->
 <!-- - [x] [**完整的旅游技术解决方案| 旅游门户网站开发**](http://www.travelotas.com/) -->
 <!-- - [x] [**网页设计材料**](http://w3cgeek.com/) -->
 <!-- - [x] [**网站数据采集_数据采集器_数据采集解决方案_采集联盟 -**](http://www.datll.com/) -->
