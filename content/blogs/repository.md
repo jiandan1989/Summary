@@ -5,7 +5,7 @@ date: '2019-06-30'
 modifyDate: '2019-06-30'
 ---
 
-# 网站搜集
+### 网站搜集
 
 <a name="说明"></a>
 
@@ -18,50 +18,67 @@ modifyDate: '2019-06-30'
 
 ### 推荐
 
-[**stackshare**](https://stackshare.io/)**\***<br />[**静态站点生成器**](https://www.staticgen.com/)
-
+- [x] [**stackshare**](https://stackshare.io/): 快速找到适合自己的开发工具以及查看使用工具的公司
+- [x] [**静态站点生成器**](https://www.staticgen.com/): 收集多个静态站点的生成器
 - [x] [**Health**](http://www.health.com/): 健康
-- [x] [**Parse + Open Source = ❤️**](https://parseplatform.org/)
-- [x] [**最好的 JavaScript 和 Web 平台**](http://bestof.js.org/)
+- [x] [**Parse + Open Source = ❤️**](https://parseplatform.org/): 借助对象和文件存储, 用户身份验证, 托送通知, 仪表盘等更多功能, 可以更快的构建应用程序
+- [x] [**最好的 JavaScript 和 Web 平台**](http://bestof.js.org/): 收集最好的 HTML Javascript 和 CSS 的社区库集合
+- [x] [Alternativeto](https://alternativeto.net/): 感觉某个软件或应用不好用/太贵？想找替代品，上alternativeto.net看看大家的选择吧
+- [x] [ilovepdf](https://www.ilovepdf.com/): 每次办公室遇到 pdf 问题，直接丢这个网站，免费又直观。广受好评。
   <!-- - [x] [**Introduction · Front-end Developer Handbook 2017**](https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/) -->
 
 <a name="简历"></a>
 
 ### 简历
 
-- [x] [**strml**](https://www.strml.net/)
+- [x] [**strml**](https://www.strml.net/): 超燃的简历
 
 <a name="学习"></a>
 
 ### 学习
 
-- [x] [**MDN**](https://developer.mozilla.org/zh-CN/)**\***
-- [x] [**Javascript Info**](https://javascript.info/)**\***
-- [x] **[improgrammer](https://www.improgrammer.net/)**\*****
-- [ ] [**redstapler**](https://redstapler.co/)
-- [x] **[BestOfJs](https://bestofjs.org/)\*\*** **\*\*\***
-- [x] [**developers.google**](https://developers.google.com/web/)
-- [x] [**laracasts**](https://laracasts.com/)
-- [x] [**javascript30**](https://javascript30.com/)**\***
-- [x] [**JS.org**](https://js.org/)**\***
+- [x] [**Stack Overflow**](http://stackoverflow.com/): 可能是世界上最受欢迎的网站, 有数百万个好问题和答案
+- [x] [**MDN**](https://developer.mozilla.org/zh-CN/): 比较权威的学习文档
+- [x] [**Javascript Info**](https://javascript.info/): 现代 JavaScript 教程, 从基础到高级主题, 并提供详细的说明
+- [x] [**improgrammer**](https://www.improgrammer.net/):
+- [ ] [**redstapler**](https://redstapler.co/): 一起学习实用示例中的面向初学者的基本编码教程。简明扼要，Cherry 只挑选了所有教程在 10 分钟之内的精髓！
+- [x] [**developers.google**](https://developers.google.com/web/): 谷歌开发
+- [x] [**laracasts**](https://laracasts.com/): 现代开发人员的 截屏视频
+- [x] [**javascript30**](https://javascript30.com/): 社区内比较经典的 30 秒代码片段
+- [x] [**JS.org**](https://js.org/):
 - [x] [**Code School**](https://www.pluralsight.com/)
-- [x] [**Hackr**](https://hackr.io/)**\***
+- [x] [**Hackr**](https://hackr.io/): 查找最佳编程课程和教程
 - [x] [**Code**](https://code.org/)
-- [x] [**DataCamp**](https://www.datacamp.com//)
+- [x] [**DataCamp**](https://www.datacamp.com//): 该学习平台为数据驱动专业人员, 更快的洞察力, 更好的决策, 公司和个人可以在线学习数据科学, 以建立将数据投入工作的技能, 了解 python R, SQL 等
 - [x] [**CodinGame**](https://www.codingame.com/start)
-- [x] [**Flatironschool**](https://flatironschool.com/)
-- [x] [**CssScript**](https://www.cssscript.com/)
-- [x] [**Coursera**](https://www.coursera.org/)
-- [x] [**CodeNewbie**](https://www.codenewbie.org/)
-- [x] [**Freebuf**](https://www.freebuf.com/)
-- [x] [**Masterclass**](https://www.masterclass.com/)
-- [x] [**Treehouse**](https://teamtreehouse.com/)**\***
+- [x] [**Flatironschool**](https://flatironschool.com/): 学习如何构建未来, 可以改变一切, 从代码, 数据科学 UX/UI 设计或网络安全分析的新职业
+- [x] [**CssScript**](https://www.cssscript.com/): css 和 js 的可扩展性的插件等学习
+- [x] [**Coursera**](https://www.coursera.org/): 是免费大型公开在线课程项目，由美国斯坦福大学两名计算机科学教授创办。旨在同世界顶尖大学合作，在线提供免费的网络公开课程。Coursera 的首批合作院校包括斯坦福大学、密歇根大学、普林斯顿大学、宾夕法尼亚大学等美国名校 。
+- [x] [**CodeNewbie**](https://www.codenewbie.org/): 程序员和学习代码的人的最支持社区。
+- [x] [**Freebuf**](https://www.freebuf.com/): 互联网安全新媒体平台
+- [x] [**Masterclass**](https://www.masterclass.com/): 在线课程由世界上最伟大的思想家教授。
+- [x] [**Treehouse**](https://teamtreehouse.com/): 学习编码，获得新技能
 - [x] [**Playground**](https://www.apple.com/swift/playgrounds/)
-- [x] **[Codepen](https://codepen.io/)**\*****
-- [x] [**Learn to code**](https://www.codecademy.com/learn)
-- [x] [**frontendfocus**](http://frontendfocus.co/)**\***
-- [x] [**codemyui**](https://codemyui.com/)
-- [x] [**tutorialspoint**](https://www.tutorialspoint.com/)
+- [x] [**Learn to code**](https://www.codecademy.com/learn): 国外在线学习编程的网站，它为用户提供了一种学习编程的新方式。它是一种基于网络的互动编程教程，手把手帮助用户了解 JavaScript 的一些基本原理，更重要的是，使用 Codecademy 学习编程充满了趣味性。
+- [x] [**frontendfocus**](http://frontendfocus.co/): 每周一次的最佳前端新闻，文章和教程摘要。HTML，CSS，WebGL，Canvas，浏览器技术等等。
+- [x] [**codemyui**](https://codemyui.com/): 网页设计和 UI 灵感与代码段
+- [x] [**tutorialspoint**](https://www.tutorialspoint.com/): 最大的在线教程库，全部免费
+- [x] [麻省理工学院](https://web.mit.edu/)
+- [x] [**edX | Free online courses from the world's best universities**](https://www.edx.org/): edX 是麻省理工和哈佛大学于 2012 年 5 月联手发布的一个网络在线教学计划。
+- [x] [**Udemy 在线课程 - 时间自由，学您想学**](https://www.udemy.com/)
+- [x] [**浏览器的工作原理：现代网络浏览器幕后揭秘 - HTML5 Rocks**](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/#Parsing_general)
+- [x] [**LeetCode Online Judge**](https://leetcode.com/): LeetCode是帮助您提高技能，扩展知识并准备技术面试的最佳平台。
+- [x] [**优达学城 (Udacity) - 传授硅谷的名企官方课程**](https://cn.udacity.com/): Udacity推出的课堂涵盖 计算机科学、数学、物理学、统计学、心理学等。
+- [x] [Java world](http://www.javaworld.com/): 包含了大量各种关于Java主题的教程
+- [x] [Wordart](https://wordart.com/): 一个在线文字云制作的网站，不会做文字云的你，在这个在线网站中也能做到好的文字云，然后就可以用到PPT中去啦！
+- [x] [**免费网站建设者| 创建免费网站| WIX.com**](https://www.wix.com/)
+
+<a name="分享"></a>
+
+### 分享
+
+- [x] [**Codepen**](https://codepen.io/): 代码在线分享平台
+- [x] [**RunJS - 在线编辑、展示、分享、交流你的 JavaScript 代码**](http://runjs.cn/)
 
 <a name="社区"></a>
 
@@ -83,13 +100,13 @@ modifyDate: '2019-06-30'
 - [x] [**codenewbie**](http://www.codenewbie.org/)
 - [x] [**codingdojo**](http://www.codingdojo.com/)
 - [x] [**全栈开发者**](http://www.admin10000.com/)
-- [x] [**知乎**](https://www.zhihu.com/)
+- [x] [**知乎**](https://www.zhihu.com/): 用提问和回答的方式，分享真实优质的知识、经验和见解的社区。
 - [x] [**掘金**](https://gold.xitu.io/)
 - [x] [**简书**](http://www.jianshu.com/)
 - [x] [**CSDN**](http://www.csdn.net/)
 - [x] [**SDK.CN**](https://www.sdk.cn/)
 - [x] [**深度开源**](http://www.open-open.com/)
-- [x] [**开源中国 **](http://www.oschina.net)
+- [x] [**开源中国**](http://www.oschina.net)
 
 ### 博客
 
@@ -97,7 +114,7 @@ modifyDate: '2019-06-30'
 
 - [x] [**奇舞团博客**](https://75team.com/post/list)**\***
 - [x] [**淘宝前端团队**](http://taobaofed.org/)**\***
-- [x] **[阮一峰](http://www.ruanyifeng.com/home.html)  老师**\*****
+- [x] [**阮一峰**](http://www.ruanyifeng.com/home.html)
 - [x] [**CHEN HUI JING**](https://www.chenhuijing.com/#%F0%9F%92%BB)
 - [x] [**Larapulse**](https://blog.larapulse.com/)
 - [x] [**Tutorialzine**](https://tutorialzine.com/articles)**\***
@@ -128,13 +145,19 @@ modifyDate: '2019-06-30'
 - [x] [**W3Cschool 极客导航**](https://123.w3cschool.cn/)
 - [x] [**大数据导航**](http://hao.199it.com/)
 - [x] [**国外网站推荐**](http://www.egouz.com/)
-- [x] [**AnywhereAnything**](http://lackar.com/aa/)
 - [x] [**Instructables - How to make anything**](http://www.instructables.com/)
 - [x] [**翼狐网（翼虎网）-学设计，上翼狐！**](http://www.yiihuu.com/)
 - [x] [**WuliHub - 用工具让工作落地**](http://www.wulihub.com/)
 - [x] [**设计导航 - 精选最好的设计网站大全**](http://hao.shejidaren.com/)
 - [x] [**龙轩导航-做个有用的导航**](http://ilxdh.com/)
 - [x] [**其他\_学习网站导航 -1 纳米学习网站导航**](http://1nami.com/site/173.html)
+
+<a name="搜索"></a>
+
+### 搜索
+
+- [x] [**AnywhereAnything**](http://lackar.com/aa/): 这是一个整合类的网站，把传统的网站导航做成了手机图标的形式，可以很方便的找到需要的网站。
+- [x] [Free High-Resolution Photos](https://stock.adobe.com/): 如果你经常需要高质量的图片素材, 里面有很多的高质量图片
 
 <a name="模板"></a>
 
@@ -154,7 +177,7 @@ modifyDate: '2019-06-30'
 
 ### 新闻
 
-- [x] [**Next**](http://next.36kr.com/posts)
+- [x] [**Next**](http://next.36kr.com/posts): 提供科技以及新兴互联网公司信息、评论和分析。
 - [x] [**Producthunt**](https://www.producthunt.com/)**\***
 - [x] [**The Next Web**](https://thenextweb.com/)**\***
 - [x] [**WebDesignerNews**](https://www.webdesignernews.com/)**\***
@@ -191,7 +214,7 @@ modifyDate: '2019-06-30'
 
 ### MAC
 
-- [x] **[Awesome Mac](https://wangchujiang.com/awesome-mac/index.zh.html): Mac 软件推荐**\*****
+- [x] **[Awesome Mac](https://wangchujiang.com/awesome-mac/index.zh.html): Mac 软件推荐**\*\*\*\*\*
 - [x] [**爱情守望者**](http://www.waitsun.com/)
 - [x] [**玩转苹果**](http://www.ifunmac.com/)
 
@@ -199,12 +222,12 @@ modifyDate: '2019-06-30'
 
 ### APIS
 
-- [x] [**devdocs.io**](http://devdocs.io/)**\*** 在线 API 查询
-- [x] [**devhints**](https://devhints.io/)**\*** 在线文档
-- [x] [**public-apis**](https://github.com/toddmotto/public-apis)**\*** 公共 API
-- [x] [**trello**](https://trello.com/b/6BmTulfx/devdocs-documentation) API 查询
+- [x] [**devdocs.io**](http://devdocs.io/): 在线 API 查询
+- [x] [**devhints**](https://devhints.io/): 在线文档
+- [x] [**public-apis**](https://github.com/toddmotto/public-apis): 公共 API
+- [x] [**trello**](https://trello.com/b/6BmTulfx/devdocs-documentation): API 查询
 - [x] [**css 参考手册**](http://css.doyoe.com/)
-- [x] [**正则表达式**](https://regexper.com)**\***
+- [x] [**正则表达式**](https://regexper.com)
 
 <a name="游戏"></a>
 
@@ -217,84 +240,93 @@ modifyDate: '2019-06-30'
 ### 插件
 
 - [x] [**Postman**](http://chromecj.com/web-development/2014-09/60.html)
-- [x] [**前端导航**](http://www.imooc.com/article/13012)**\***
-- [x] [**Octotree**](http://www.cnplugins.com/devtool/octotree/)**\***
+- [x] [**前端导航**](http://www.imooc.com/article/13012)
+- [x] [**Octotree**](http://www.cnplugins.com/devtool/octotree/)
 - [x] [**百度前端助手**](https://www.baidufe.com/fehelper/)
-- [x] [**Panda**](https://usepanda.com/?utm_source=next.36kr.com)**\***
-- [x] [**掘金**](https://gold.xitu.io/extension/)**\***
+- [x] [**Panda**](https://usepanda.com/?utm_source=next.36kr.com)
+- [x] [**掘金**](https://gold.xitu.io/extension/)
 - [x] [**Infinity 新标签页**](http://chromecj.com/productivity/2014-12/301.html)
 
 <a name="图片"></a>
 
 ### 图片
 
-- [x] [**500px 摄影图**](https://500px.com/)**\***
+- [x] [**500px 摄影图**](https://500px.com/)
 - [x] [**315 图片**](http://315pm.tuweia.cn/)
-- [x] [**Dribble**](https://dribbble.com/)**\***
+- [x] [**Dribble**](https://dribbble.com/)
 - [x] [**稀土**](https://xituqu.com/590.html)
-- [x] **[Arctime](http://www.arctime.org/)**
-- [x] **[Albumarium](http://albumarium.com/)**
-- [x] **[Burst](https://burst.shopify.com/)**
-- [x] **[Bucketlistly](http://photos.bucketlistly.com/)**
-- [x] **[pixabay](https://pixabay.com/)** 免费图片
-- [x] **[Foter](http://foter.com/)**
-- [x] **[StockSnap](https://stocksnap.io/)**
-- [x] **[Stock Up](https://www.sitebuilderreport.com/stock-up%20rel=)**
-- [x] **[Finda.Photo](http://finda.photo/)**
-- [x] **[Flickr](https://www.flickr.com/)** 灵感
-- [x] [**unsplash:**](https://unsplash.com/)**无版权图片**\*****
-- [x] [**getrefe**](http://getrefe.com/)**: 免费图片**
-- [x] **[The Pattern Library](http://thepatternlibrary.com/)**
-- [x] **[Kaboom Pics](http://kaboompics.com/)**
-- [x] **[IM Free](http://imcreator.com/free)**
-- [x] **[NegativeSpace](https://negativespace.co/)**
-- [x] **[Splashbase](http://www.splashbase.co/)**
-- [x] **[Cupcake](http://cupcake.nilssonlee.se/)**
-- [x] **[Epicantus](http://epicantus.tumblr.com/)**
-- [x] **[Designer Pics](http://www.designerspics.com/)**
-- [x] **[Graphicstock](https://www.graphicstock.com/)**
-- [x] **[Shot Stash](https://shotstash.com/)**
-- [x] **[Little Visuals](http://littlevisuals.co/)**
-- [x] **[Picography](http://picography.co/)**
-- [x] **[New Old Stock](http://nos.twnsnd.co/)**
-- [x] **[Public Domain Archive](http://publicdomainarchive.com/)**
-- [x] **[Magdeleine](https://magdeleine.co/)**
-- [x] **[Superfamous](http://images.superfamous.com/)**
-- [x] **[Pexels](http://i.imgur.com/PfxIw8h.png)**
-- [x] **[Realistic Shots](http://realisticshots.com/)**
-- [x] **[Stokpic](http://stokpic.com/)**
-- [x] **[Gratisography](http://gratisography.com/)**
-- [x] **[Split Share](https://www.splitshire.com/)**
-- [x] **[Life Of Pix](http://www.lifeofpix.com/)**
-- [x] **[Morguefile](https://morguefile.com)**
-- [x] **[Foodies Feed](https://www.foodiesfeed.com/)**
-- [x] **[Free Nature Stock](http://freenaturestock.com/)**
-- [x] **[Free Stock Photos](https://www.goodfreephotos.com/)**
-- [x] **[Death to Stock Photos](http://deathtothestockphoto.com/)**
-- [x] **[Free Images](http://www.freeimages.com/)**
-- [x] **[Every Stock Photo](http://www.everystockphoto.com/)**
-- [x] **[RGB Stock](http://www.rgbstock.com/)**
-- [x] **[Stock Vault](http://www.stockvault.net/)**
-- [x] **[Startup Stock Photos](http://startupstockphotos.com/)**
-- [x] **[MMT](https://mmtstock.com/)**
+- [x] [**Arctime**](http://www.arctime.org/)
+- [x] [**Albumarium**](http://albumarium.com/)
+- [x] [**Burst**](https://burst.shopify.com/)
+- [x] [**Bucketlistly**](http://photos.bucketlistly.com/)
+- [x] [**pixabay**](https://pixabay.com/): 免费图片
+- [x] [**Foter**](http://foter.com/)
+- [x] [**StockSnap**](https://stocksnap.io/)
+- [x] [**Stock Up**](https://www.sitebuilderreport.com/stock-up%20rel=)
+- [x] [**Finda.Photo**](http://finda.photo/)
+- [x] [**Flickr**](https://www.flickr.com/): 灵感
+- [x] [**unsplash:**](https://unsplash.com/): 无版权图片
+- [x] [**getrefe**](http://getrefe.com/): 免费图片
+- [x] [The Pattern Library](http://thepatternlibrary.com/)
+- [x] [Kaboom Pics](http://kaboompics.com/):
+- [x] [IM Free](http://imcreator.com/free):
+- [x] [NegativeSpace](https://negativespace.co/):
+- [x] [Splashbase](http://www.splashbase.co/):
+- [x] [Cupcake](http://cupcake.nilssonlee.se/):
+- [x] [Epicantus](http://epicantus.tumblr.com/):
+- [x] [Designer Pics](http://www.designerspics.com/):
+- [x] [Graphicstock](https://www.graphicstock.com/):
+- [x] [Shot Stash](https://shotstash.com/):
+- [x] [Little Visuals](http://littlevisuals.co/):
+- [x] [Picography](http://picography.co/):
+- [x] [New Old Stock](http://nos.twnsnd.co/):
+- [x] [Public Domain Archive](http://publicdomainarchive.com/):
+- [x] [Magdeleine](https://magdeleine.co/):
+- [x] [Superfamous](http://images.superfamous.com/):
+- [x] [Pexels](http://i.imgur.com/PfxIw8h.png):
+- [x] [Realistic Shots](http://realisticshots.com/):
+- [x] [Stokpic](http://stokpic.com/):
+- [x] [Gratisography](http://gratisography.com/):
+- [x] [Split Share](https://www.splitshire.com/):
+- [x] [Life Of Pix](http://www.lifeofpix.com/):
+- [x] [Morguefile](https://morguefile.com):
+- [x] [Foodies Feed](https://www.foodiesfeed.com/):
+- [x] [Free Nature Stock](http://freenaturestock.com/):
+- [x] [Free Stock Photos](https://www.goodfreephotos.com/):
+- [x] [Death to Stock Photos](http://deathtothestockphoto.com/):
+- [x] [Free Images](http://www.freeimages.com/):
+- [x] [Every Stock Photo](http://www.everystockphoto.com/):
+- [x] [RGB Stock](http://www.rgbstock.com/):
+- [x] [Stock Vault](http://www.stockvault.net/):
+- [x] [Startup Stock Photos](http://startupstockphotos.com/):
+- [x] [MMT](https://mmtstock.com/):
 - [x] [**PandaGif**](http://pandagif.com/)
 - [x] [**Reaction GIFs**](http://www.reactiongifs.com/)
 - [x] [**Best Funny Gifs **](http://www.gifbin.com/)
 - [x] [**Gfycat | Find, Make & Share Gfycat GIFs**](https://gfycat.com/)
+- [x] [Giphy](https://giphy.com/): 你可以在Giphy中添加多个图片来创建一个GIF动画，或者直接利用该工具将你的视频剪辑成GIF动画格式。Giphy还允许你直接在里面添加标题或贴纸，使整个GIF动画更有趣。
+- [x] [GIMP](https://www.gimp.org/): GIMP是一个免费图像编辑器，你可以将视频或图片导入其中，制作有趣的GIF动画。
+- [x] [Imgflip](https://imgflip.com/): 你可以将视频文件、YouTube视频、图片或其他视频网站添加到Imgflip中，制作高质量的GIF动画， GIF动画中也能添加水印。
+- [x] [Ezgif](https://ezgif.com/): Ezgif是一个简单的在线GIF动画编辑器，你可以使用该工具调整动画大小、对图片进行裁剪、添加特效等。
+- [x] [Picasion](https://picasion.com/): 你可以在Picasion中上传2到10张图片创建GIF动画，然后上传到社交媒体平台或网站中，与你的目标受众分享。
+- [x] [Gickr.com](http://gickr.com/): 通过Gickr.com，你可以立即在网上免费创建GIF动画，你可以在动画中添加各种特效、横幅等，来增加其趣味性。
+- [x] [GIFMaker.me](https://gifmaker.me/): 如果你觉得一些工具需要注册或登陆太麻烦，那么GIFMaker.me最适合你，它没有这方面要求，你只需打开就能创建自己想要的GIF动画，创建完毕后可以分享到博客、社交媒体等任何地方。
+- [x] [GIFPal](https://www.gifpal.com/): 用户可以直接拍照或从相册选照上传到GIFPal中，制作GIF动画， GIFPal允许你对照片的对比度、亮度、饱和度和色调精心调整，并提供30种的视觉效果。
+- [x] [GifApp](https://www.techsupportalert.com/): 如果你正在寻找一个能在Windows或Linux系统上使用的GIF动画创建工具，那非GifApp莫属，这个工具操作界面简单，你可以直接从视频中截取画面，导入音频，并对特定的某一帧进行延时或删除，画面的大小也可以自由调整，同时GifApp还提供应用17种不同的特效。
 
 <a name="设计"></a>
 
 ### 设计
 
 - [x] [**webdesignerdepot**](http://www.webdesignerdepot.com/): 设计博客
-- [x] [**Design**](http://www.designforfounders.com/)**\***
+- [x] [**Design**](http://www.designforfounders.com/)
 - [x] [**bypeople**](https://www.bypeople.com/)
-- [x] [**codrops**](https://tympanus.net/codrops/)**\***
+- [x] [**codrops**](https://tympanus.net/codrops/)
 - [x] [**iosstash**](http://iosstash.io/)
 - [x] [**Thebestdesigns**](https://www.thebestdesigns.com/)
 - [x] [**resourcecards**](https://resourcecards.com/)
-- [x] [**colordrop**](https://colordrop.io/)**: 配色**
-- [x] [**Open color**](https://yeun.github.io/open-color/)**\***
+- [x] [**colordrop**](https://colordrop.io/): 配色
+- [x] [**Open color**](https://yeun.github.io/open-color/)
 - [x] [**Fonts**](https://www.fonts.com/)
 - [x] [**优设**](http://www.uisdc.com/)
 - [x] [**onepagelove**](https://onepagelove.com/)
@@ -306,7 +338,7 @@ modifyDate: '2019-06-30'
 
 ### 粒子
 
-- [x] [**david.li**](http://david.li/)**\***
+- [x] [**david.li**](http://david.li/)
 - [x] [**christmasexperiments**](http://christmasexperiments.com/experiments)
 
 ### 模板
@@ -315,15 +347,106 @@ modifyDate: '2019-06-30'
 
 - [x] [**Website**](https://www.templatemonster.com/)
 
+<a name="分析工具"></a>
+
+### 分析工具
+
+- [x] [**西瓜数据-公众号大数据服务商**](http://data.xiguaji.com/)
+- [x] [**新榜**](https://www.newrank.cn/)
+- [x] [**易赞**](http://yeezan.cn/)
+- [x] [**今日热榜**](https://tophub.today/)
+- [x] [**微博指数**](http://data.weibo.com/index)
+- [x] [**百度指数**](http://index.baidu.com/)
+- [x] [好搜指数](http://index.so.com/#index)
+- [x] [搜狗指数](http://zhishu.sogou.com/)
+- [x] [百度预测](http://trends.baidu.com/)
+
+  ------在线调查工具-----
+- [x] [腾讯问卷调查](http://wj.qq.com/)
+- [x] [麦客](http://www.mikecrm.com/)
+- [x] [ICTR](http://cn2.ictr.cn/)
+- [x] [问道网](http://www.askform.cn/)
+- [x] [问卷星](http://www.sojump.com/)
+- [x] [调查派](http://www.diaochapai.com/)
+- [x] [问卷网](http://www.wenjuan.com/)
+- [x] [SurveyMonkey](https://zh.surveymonkey.com/)
+
+-----------数据可视化工具--------------
+
+- [x] [百度ECharts](http://echarts.baidu.com/)
+- [x] [Cytoscape](http://www.cytoscape.org/)
+- [x] [图表秀](http://www.tubiaoxiu.com/)
+- [x] [数据观](http://shujuguan.cn/)
+- [x] [微博足迹可视化](http://vis.pku.edu.cn/weibova/weibogeo_footprint/index.html)
+- [x] [BDP个人版](https://me.bdp.cn/home.html)
+- [x] [ICHarts](http://www.icharts.in/)
+- [x] [魔镜](http://www.moojnn.com/)
+
+----------------词频分析工具------------------
+
+- [x] [Rost](http://www.cncrk.com/downinfo/54638.html)
+- [x] [图悦](http://www.picdata.cn/)
+- [x] [语义分析系统](http://ictclas.nlpir.org/nlpir/)
+- [x] [Tagul](https://tagul.com/)
+- [x] [腾讯文智](http://nlp.qq.com/semantic.cgi)
+- [x] [Tagxedo词云](http://www.tagxedo.com/)
+
+--------------------舆情分析工具---------------------
+
+- [x] [清博舆情系统](http://yuqing.gsdata.cn/)
+- [x] [云相](http://www.weidata.cn/)
+- [x] [我图网](http://so.ooopic.com/)
+- [x] [51PPT模板](http://www.51pptmoban.com/ppt/)
+- [x] [无忧PPT](http://www.51ppt.com.cn/)
+- [x] [第1PPT](http://www.1ppt.com/)
+- [x] [站长之家](http://sc.chinaz.com/ppt/)
+- [x] [设计师网址导航](http://www.userinterface.com.cn/)
+
+--------------------网站分析监测工具------------------------
+
+- [x] [H5传播分析工具](http://chuanbo.datastory.com.cn/)
+- [x] [百度统计](http://tongji.baidu.com/web/welcome/login)
+- [x] [腾讯云分析](http://mta.qq.com/)
+- [x] [51.la](http://www.51.la/)
+
+-------------社交媒体监测工具---------------------
+
+- [x] [孔明社会化媒体管理](http://www.kmsocial.cn/)
+- [x] [企业微博管理中心](http://e.weibo.com/)
+- [x] [知乎用户深度分析](http://www.kanzhihu.com/useranalysis)
+
+------------其他数据网站--------------------
+
+- [x] [数据分析网](http://www.afenxi.com)
+- [x] [媒体微博排行榜](http://v6.bang.weibo.com/xmt)
+- [x] [友盟](http://www.umeng.com/)
+- [x] [中国新闻地图](http://vis.360.cn/open/cnnews/)
+- [x] [中国票房榜](http://www.cbooo.cn/)
+- [x] [收视率排行](http://www.tvtv.hk/archives/category/tv)
+- [x] [农业大数据云平台](http://www.dataagri.com/agriculture/gis.action)
+- [x] [房价指数](http://industry.fang.com/data/datacenter.aspx)
+- [x] [中国统计局](http://data.stats.gov.cn/)
+- [x] [中国主要城市拥堵排名](http://report.amap.com/traffic/)
+- [x] [中国综合社会调查](http://www.chinagss.org/)
+- [x] [中国P2P网贷指数](http://www.p2p001.com/wdzs/wdzs_p2pline.html)
+- [x] [Alexa](http://www.alexa.com/)
+- [x] [易车汽车指数](http://index.bitauto.com/)
+- [x] [旅游预测](http://trends.baidu.com/tour/​​​)
+
+
 <a name="其他"></a>
 
 ### 其他
 
-- [x] [**Silk**](http://weavesilk.com/)**\***
-- [x] [**JS1K**](http://js1k.com/)**\***
-- [x] **[performance-ideas](http://www.performance-ideas.com/)**
+- [x] [postcrossing](https://www.postcrossing.com/): 一个可以收到国外明信片的地方。你随机拿到国外地址，寄出一次，也会有人在国外随机拿到你的地址寄给你。然后足不出户就有世界各地的明信片啦
+- [x] [**weavesilk**](http://weavesilk.com/): 一个可以让毫无绘画基础的人画出炫酷的图案，真的是超级炫酷，我常常画一些图案来当电脑的壁纸，超棒！
+- [x] [中午吃什么](https://www.zwcsm.com/): 一个废柴但是有趣的网站，对于选择恐惧症来说，不用思考中午吃什么实在太省事儿啦!
+- [x] [Chembing](http://www.chembing.com/): 化学狗必备的网站，使用方法：画出分子式可以给出名称和一些物理，化学性质，简直良心得不行。
+- [x] [**JS1K**](http://js1k.com/):
+- [x] [**performance-ideas**](http://www.performance-ideas.com/)
 - [x] [**httpie**](https://httpie.org/)
 - [x] [**mymodernmet**](https://mymodernmet.com/)
+* [x] [**(21) Pinterest**](https://www.pinterest.com/): 超级超级好用的图片瀑布流式网站，比花瓣高，图片质量高， 格调也高，没有广告，和几大社交网站都关联，设计师必备！
 - [x] [**Vimeo**](https://vimeo.com/)
 - [x] [**iTunes Movie﻿ Trailers**](http://trailers.apple.com/)
 - [x] [**天空之城**](https://www.skypixel.com/)
@@ -347,23 +470,30 @@ modifyDate: '2019-06-30'
 
 ### 未整理
 
+- [nicepsd](https://www.nicepsd.com/): 国内免费下载资源
+- [Bomomo](http://bomomo.com/): 一个学习画画的平台，还挺好玩的
+- [DUST SOUNDS](http://dust-sounds.com/): 「DUST SOUNDS」是一个日本免费音乐音效网站，提供循环音乐、背景音乐、音效和声音素材，主要提供四大类型音乐：Emsemble、Solo、Techno 和效果音，小分类方面则有： POP、Rock、Hiphop、Jazz 和 Funk，使用者可直接线上预览，免费下载 WAV、MP3 或 OGG 三种格式。
+- [BBC Sound Effects](http://bbcsfx.acropolis.org.uk/): BBC Sound Effects收录超过16,000多个声音效果，无论是早期广播、演讲、动物鸣叫、城市、交通工具或战争时期的武器声都能在这个网站中找到。如果依照每个页面显示25则音讯素材，目前总页数已经超过600页以上！
+BBC Sound Effects 提供音讯格式为 WAV，可直接从网页预览、下载，不过要注意的是这些素材采用 RemArc Licence 授权方式，仅适用于个人、教育或研究用途，若要商业用必须购买完整素材授权（$4,999美金，共有29,420个音效素材）
+- [iBeat](https://ibeat.org/): 国外免费音效素材库「iBeat」，网站以收录效果音效为主，包括各式 Loops、Beats 和 Breaks 素材，因为本身对于音乐制作很陌生，还特别去查了一下这些名词指的是什么？原来是制作音乐时可用于背景音乐的节拍、循环等元素。从 iBeat 可以找到许多现成的音效录音，在线预览，需要的话能快速下载，完全不用注册或登入
+- [甘茶の音楽工房](https://amachamusic.chagasi.com/): 「甘茶の音楽工房」（Music Atelier Amacha）是一个日本免费背景音乐 BGM 网站，收录数百个由站长 Amacha 原创的音乐素材，这些 Mp3 音乐以免费开放形式公开让大家下载，可自由使用于网站、影片、游戏或项目开发，包括商业或非商业用途。
+- [TAM Music Factory](https://www.tam-music.com/): 「TAM Music Factory」是一款来自日本的免费音乐音效库，提供数量不多、但可自由下载使用的音乐及效果音素材，格式有 Mp3、Ogg 和 MIDI（效果音以 Wav 为主）。网站收录的音乐音效依照季节、节日、风格及使用情境分类。
+- [Rubber Tracks Sample Library](https://www.conversesamplelibrary.com/): Rubber Tracks Sample Library 是一个迅速成长中的网站，收录大量音乐音效素材、录音、配乐、样本及效果，这些音乐片段被妥善地卷标、分类，并放置于网站内供使用者预览，可以免费下载，使用于任何地方，包括你的个人或商业创作，而无须受到任何限制。
 - [x] [**酷壳 – CoolShell.cn**](http://coolshell.cn/)
 - [x] [**廖雪峰**](http://www.liaoxuefeng.com/)
 - [x] [**慕课网(IMOOC)-程序员的梦工厂**](http://www.imooc.com/)
 - [x] [**前端网（W3Cfuns）**](http://www.w3cfuns.com/)
-  <!-- - [x] [**勤学网 - 职业技能高效率在线自学平台**](http://www.qinxue.com/) -->
+- [x] [**勤学网 - 职业技能高效率在线自学平台**](http://www.qinxue.com/)
 - [x] [**全栈社区-国内最大的全栈开发者社区**](http://fstack.net/)
 - [x] [**软件开发,程序错误,exception - 我的异常网**](http://www.myexception.cn/)
 - [x] [**实验楼 - 做实验，学编程**](https://www.shiyanlou.com/)
-
 - [x] [**学知识，上百度传课**](http://www.chuanke.com/)
 - [x] [**应用列表 - LeanCloud**](https://leancloud.cn/dashboard/applist.html#/apps)
-- [x] [**优达学城 (Udacity) - 传授硅谷的名企官方课程**](https://cn.udacity.com/)
 - [x] [**源码下载\_Dev 资源\_DevStore**](http://www.devstore.cn/code/list/pn1-or0.html)
 - [x] [**猿天地-程序猿的天地-IT 互联网技术网站**](http://cxytiandi.com/)
 - [x] [**杂志期号 - 创业邦**](http://magazine.cyzone.cn/)
 - [x] [**政府資料開放平臺**](http://data.gov.tw/)
-- [x] [**中国知网**](http://www.cnki.net/)
+- [x] [**中国知网**](http://www.cnki.net/): 提供中国学术文献，外文文献、学位论文、年鉴等各类资源统一检索、统一导航、在线阅读和下载服务。
 - [x] [**主页 - 最新文章列表**](http://liuzhen.me/)
 - [x] [**专注 Web 前端开发工程师教程与 PHP 编程设计 - 爱思资源网**](http://www.aseoe.com/)
 - [x] [**最好的 JavaScript 书籍，教程，课程和视频 2017 - ReactDOM**](https://reactdom.com/blog/javascript-books)
@@ -380,7 +510,6 @@ modifyDate: '2019-06-30'
 - [x] [**Awesome Node.js 一组惊艳的 Nodejs 包和资源，nodejs 进阶必备 - Z 计划**](http://www.zplan.net/news.php?id=131)
 - [x] [**Benedikt Meurer**](http://benediktmeurer.de/)
 - [x] [**Best Free Open Source Web Resources for Web Developers | WebAppers**](http://www.webappers.com/)
-
 - [x] [**Bits and Pieces**](https://blog.bitsrc.io/)
 - [x] [**boilerpipe · PyPI**](https://pypi.org/project/boilerpipe/)
 - [x] [**Bundler: The best way to manage a Ruby application's gems**](http://bundler.io/)
@@ -486,7 +615,6 @@ modifyDate: '2019-06-30'
 - [x] [**MakeUseOf - Technology, Simplified**](http://www.makeuseof.com/)
 - [x] [**Medium – Read, write and share stories that matter**](https://medium.com/)
 - [x] [**Mixing Generators Into Iterators**](https://ponyfoo.com/articles/iterators-as-generators)
-
 - [x] [**MOOC 学院（慕课）| 发现全球在线好课**](http://mooc.guokr.com/)
 - [x] [**Most Popular Javascript Framework 2017 | Everything about JavaScript | JavaScript.fun**](http://www.javascript.fun/)
 - [x] [**Muse For You Shop | Adobe Muse CC | Home**](http://museforyou.bigcartel.com/)
@@ -497,7 +625,6 @@ modifyDate: '2019-06-30'
 - [x] [**Nozzle - Enterprise SEO Keyword Rank Tracker**](https://nozzle.io/)
 - [x] [**O’Reilly Media - Technology and business training, knowledge, and insight, delivered by experts and innovators**](https://www.oreilly.com/)
 - [x] [**Open University Data**](https://www.openuniversitydata.org/)
-
 - [x] [**Pattern Matching! · Reason**](https://reasonml.github.io/docs/zh-CN/pattern-matching)
 - [x] [**Peek**](https://peek.rocks/)
 - [x] [**PicGo**](https://molunerfinn.com/PicGo/)
@@ -523,7 +650,6 @@ modifyDate: '2019-06-30'
 - [x] [**Share and Discover Knowledge on LinkedIn SlideShare**](https://de.slideshare.net/)
 - [x] [**Shows | Web | Google Developers**](https://developers.google.com/web/shows/)
 - [x] [**Single Sign On & Token Based Authentication - Auth0**](https://auth0.com/)
-
 - [x] [**Smallpdf.com - A Free Solution to all your PDF Problems**](https://smallpdf.com/)
 - [x] [**Smashing Magazine – For Professional Web Designers and Developers**](https://www.smashingmagazine.com/)
 - [x] [**Software Sales Dashboard | Dashboards - AnyChart Playground**](https://playground.anychart.com/gallery/8.0.0/Dashboards/Software_Sales_Dashboard)
@@ -550,7 +676,6 @@ modifyDate: '2019-06-30'
 - [x] [**Tutorialzine | Web Development Tutorials & Resources**](http://tutorialzine.com/)
 - [x] [**TypeORM - Amazing ORM for TypeScript and JavaScript (ES7, ES6, ES5). Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.**](http://typeorm.io/#/)
 - [x] [**Uber Open Source**](https://uber.github.io/)
-- [x] [**Udemy 在线课程 - 时间自由，学您想学**](https://www.udemy.com/)
 - [x] [**UglifyJS — JavaScript parser, compressor, minifier written in JS**](http://lisperator.net/uglifyjs/)
 - [x] [**Understanding JavaScript Bind () – Smashing Magazine**](https://www.smashingmagazine.com/2014/01/understanding-javascript-function-prototype-bind/)
 - [x] [**URl-team | The world we move forward together**](https://www.urlteam.org/)
@@ -565,13 +690,11 @@ modifyDate: '2019-06-30'
 - [x] [**Welcome to Feedly**](https://feedly.com/i/welcome)
 - [x] [**Welcome to JavaWorld.com**](http://www.javaworld.com/)
 - [x] [**Welcome to the lampix API documentation! — lampix API 1.0 documentation**](https://api.lampix.co/)
-
 - [x] [**whoishiring.io - Who is Hiring?**](https://whoishiring.io/)
 - [x] [**World Wide Web Consortium (W3C)**](https://www.w3.org/)
 - [x] [**xnet**](http://www.xnet.se/)
 - [x] [**YQL - Yahoo Developer Network**](https://developer.yahoo.com/yql/?guccounter=1)
 - [x] [**HackerRank | Technical Recruiting | Hiring the Best Engineers**](https://www.hackerrank.com/)
-- [x] [**LeetCode Online Judge**](https://leetcode.com/)
 - [x] [**The Road to React**](https://roadtoreact.com/)
 - [x] [**LogRocket | Logging and Session Replay for JavaScript Apps**](https://logrocket.com/)
 - [x] [**Traversy Media | Web 开发和编程教程**](http://www.traversymedia.com/)
@@ -592,7 +715,6 @@ modifyDate: '2019-06-30'
 - [x] [**The online code editor for web apps. Powered by Visual Studio Code. - StackBlitz**](https://stackblitz.com/)
 - [x] [**Nikkies Tutorials | Get all the latest tutorials**](https://nikkiestutorials.com/)
 - [x] [**Frontend News & Web Development News | gitconnected**](https://gitconnected.com/)
-
 * [x] [**StaticGen | Top Open Source Static Site Generators**](https://www.staticgen.com/)
 * [x] [**API Marketplace - Free Public & Open Rest APIs | RapidAPI**](https://rapidapi.com/?utm_campaign=Quora&utm_medium=link_Marketplace&utm_source=Quora)
 * [x] [**CodeBoxx | A guaranteed job after 16 weeks!**](https://codeboxx.biz/)
@@ -610,8 +732,6 @@ modifyDate: '2019-06-30'
 * [x] [**极思维 - 关注互联网开发 成就开发者**](http://www.topthink.com/)
 * [x] [**介绍 | 优程，成为优秀程序员需要的优秀教程**](http://www.uprogrammer.cn/#react-router-cn/docs/Introduction.html)
 * [x] [**科学上网 - 高速，免费，稳定 ShadowSocks 服务商 - infinitysocks.com**](https://infinitysocks.com/)
-* [x] [**免费网站建设者| 创建免费网站| WIX.com**](https://www.wix.com/)
-* [x] [**浏览器的工作原理：现代网络浏览器幕后揭秘 - HTML5 Rocks**](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/#Parsing_general)
 * [x] [**雷锋网\_读懂智能&未来**](http://www.leiphone.com/)
 * [x] [**5 Minutes of Javascript**](https://fivejs.codeschool.com/)
 * [x] [**②ality – JavaScript and more**](http://www.2ality.com/)
@@ -715,7 +835,7 @@ modifyDate: '2019-06-30'
 * [x] [**BT 搜搜 - DHT 磁力链接搜索引擎**](http://www.btyunsou.com/)
 * [x] [**91 美剧网 | 高清美剧在线观看*美剧天堂*天天美剧 by 91MJW**](https://91mjw.com/)
 
-* [x] [**(21) Pinterest**](https://www.pinterest.com/)
+
 * [x] [**#1 PSD to WordPress Development Agency**](https://www.codeinwp.com/)
 
 <!-- - [x] [**113 enterprise AI companies you should know | VentureBeat | AI | by Marlene Jia, Topbots**](https://venturebeat.com/2017/04/23/113-enterprise-ai-companies-you-should-know/) -->
@@ -802,7 +922,6 @@ modifyDate: '2019-06-30'
 - [x] [**Download music, movies, games, software! The Pirate Bay - The galaxy's most resilient BitTorrent site**](https://thepiratebay.org/)
 - [x] [**Dr. Dobb's | Good stuff for serious developers: Programming Tools, Code, C++, Java, HTML5, Cloud, Mobile, Testing**](http://www.drdobbs.com/)
 - [x] [**Duet Display - Ex-Apple Engineers Turn Your iPad Into An Extra Display**](https://www.duetdisplay.com/cn/)
-- [x] [**edX | Free online courses from the world's best universities**](https://www.edx.org/)
 - [x] [**Electrofishing for Whales**](https://what-if.xkcd.com/)
 - [x] [**emotion**](https://emotion.sh/)
 - [x] [**Enterprise Evolver-An App to Map the Whole Enterprise**](https://enterpriseevolver.com/)
@@ -1148,7 +1267,7 @@ modifyDate: '2019-06-30'
 - [x] [**程序员客栈-程序员的经纪人|网站建设 APP 开发制作远程技术中心**](https://www.proginn.com/)
 - [x] [**传智播客和黑马程序员视频库\_传智播客和黑马程序员全套视频教程下载**](http://yun.itheima.com/)
 - [x] [**大前端-关注前端开发**](http://www.daqianduan.com/)
-- [x] [**等待回答 | 问答 | 果壳网 科技有意思**](http://www.guokr.com/ask/pending/)
+- [x] [**等待回答 | 问答 | 果壳网 科技有意思**](http://www.guokr.com/ask/pending/): 泛科技主题网站，提供有趣的内容，可以阅读、分享、交流、提问。
 - [x] [**固态硬盘 VPS 服务器，云服务器和云托管由 Vultr - Vultr.com**](https://www.vultr.com/)
 - [x] [**广场 @ Mozest.com - Mozilla 社区**](http://g.mozest.com/)
 - [x] [**简单 · 语雀**](https://yuque.com/jiandan-3sgzu)
@@ -1177,7 +1296,7 @@ modifyDate: '2019-06-30'
 - [x] [**DaniWeb IT Discussion Community**](https://www.daniweb.com/)
 - [x] [**Data 8X | Division of Data Sciences**](https://data.berkeley.edu/education/data-8x)
 - [x] [**demos.creative-tim.com**](http://demos.creative-tim.com/)
-- [x] [**Design lessons for everyone, curated by top designers - Hack Design**](https://hackdesign.org/)
+- [x] [**Design lessons for everyone, curated by top designers - Hack Design**](https://hackdesign.org/): 全球顶级设计师教你网页、APP设计，免费。
 - [x] [**Div.IO**](http://div.io/#/welcome)
 - [x] [**Documentation for the DigiCert Services API : Introduction**](https://www.digicert.com/services/v2/documentation)
 - [x] [**Echo JS - JavaScript News**](http://www.echojs.com/)
@@ -1212,7 +1331,6 @@ modifyDate: '2019-06-30'
 - [x] [**Sidebar**](http://sidebar.io/)
 - [x] [**Simple Collaborative Mind Maps - Coggle**](https://coggle.it/)
 - [x] [**slackbot | puppeteer Slack**](https://puppeteer.slack.com/messages/DA2PA034K/)
-- [x] [**Stack Overflow**](https://stackoverflow.com/)
 - [x] [**Start Learning at Treehouse for Free**](https://teamtreehouse.com/discover)
 - [x] [**Surmon.me - Talk is cheap. Show me the code | Surmon.me**](https://surmon.me/)
 - [x] [**TensorFlow 中文社区-首页**](http://www.tensorfly.cn/)
@@ -1248,8 +1366,7 @@ modifyDate: '2019-06-30'
 - [x] [**Analytics Community | Analytics Discussions | Big Data Discussion**](https://www.analyticsvidhya.com/)
 - [x] [**WIPO - World Intellectual Property Organization**](https://www.wipo.int/portal/en/index.html)
 - [x] [**中国科学文献服务系统**](http://sciencechina.cn/)
-- [x] [**中国科学文献服务系统**](http://www.itongji.cn/)
-- [x] [**西瓜数据-公众号大数据服务商**](http://data.xiguaji.com/)
+- [x] [**中国科学文献服务系统**](http://www.itongji.cn/): 提供数据分析软件学习资料和行业资讯。
 - [x] [**Termius**](https://www.termius.com/)
 - [x] [**Panc.cc-胖次网盘搜索 - 胖次分享社区 - 我们热爱分享**](http://panc.cc/)
 - [x] [**众人搜索网 | 学习资料免费搜索下载网**](https://www.renrensousuo.com/)
@@ -1437,7 +1554,7 @@ modifyDate: '2019-06-30'
 - [x] [**RequireJS**](http://requirejs.org/)
 - [x] [**RubyChina Clone**](http://ruby-china.liuzhen.me/)
 - [x] [**Sell digital products, sell downloads on Sellfy - eBooks, music, video, fonts, software and more**](https://sellfy.com/)
-- [x] [**Stack Overflow**](http://stackoverflow.com/)
+
 - [x] [**Start Bootstrap - Free Bootstrap Themes and Templates**](https://startbootstrap.com/)
 - [x] [**The Python Challenge**](http://www.pythonchallenge.com/)
 - [x] [**Web Components for business apps | Vaadin Elements - vaadin.com**](https://vaadin.com/elements)
@@ -1517,9 +1634,6 @@ modifyDate: '2019-06-30'
 - [x] [**The Raygun Blog - Updates and tech articles from the team behind Raygun**](https://raygun.com/blog/)
 - [x] [**cssnano: A modular minifier based on the PostCSS ecosystem.**](http://cssnano.co/)
 - [x] [**How to be an exceptional software developer: motivation and learning**](https://raygun.com/blog/2017/02/how-to-be-an-exceptional-software-developer/)
-
-<!-- - [x] [**RunJS - 在线编辑、展示、分享、交流你的 JavaScript 代码**](http://runjs.cn/) -->
-
 - [x] [**All CSS Properties Listed Alphabetically**](http://www.blooberry.com/indexdot/css/propindex/all.htm)
 - [x] [**How to keep up to date on Front-End Technologies - The Recipe**](https://uptodate.frontendrescue.org/)
 - [x] [**Javascript Puzzlers or: do you really know JavaScript?**](http://javascript-puzzlers.herokuapp.com/)
@@ -1625,10 +1739,8 @@ modifyDate: '2019-06-30'
 - [x] [**Pictos**](http://pictos.cc/)
 - [x] [**RNS Fonts**](http://www.rnsfonts.com/)
 - [x] [**Swifticons **](https://www.swifticons.com/)
-
 - [x] [**p5.js | home**](https://p5js.org/)
 - [x] [**JavaScript 的状态**](https://stateofjs.com/)
-
 - [x] [**Preloaders.net**](https://preloaders.net/)
 - [x] [**loading.io**](https://loading.io/)
 - [x] [**Mac 常用命令**](https://www.sdk.cn/news/3140)
@@ -1722,7 +1834,6 @@ modifyDate: '2019-06-30'
 - [x] [**RWieruch**](https://www.robinwieruch.de/)
 - [x] [**Why I’m Thankful for JS Fatigue. I know you’re sick of those words, but this is different.**](https://medium.com/javascript-scene/why-im-thankful-for-js-fatigue-i-know-you-re-sick-of-those-words-but-this-is-different-296fae0c888f#.9iaojkxos)
 - [x] [**ZEIT**](https://zeit.co/)
-
 - [x] [**进度按钮样式**](https://tympanus.net/Development/ProgressButtonStyles/)
 - [x] [**AlloyUI**](http://alloyui.com/)
 - [x] [**Amaze UI**](http://amazeui.org/)
@@ -1747,7 +1858,6 @@ modifyDate: '2019-06-30'
 - [x] [**Ui Parade - Live Tools**](http://livetools.uiparade.com/)
 - [x] [**UIkit 中文网**](http://www.getuikit.net/)
 - [x] [**Vaadin – User Interface Components for business apps - vaadin.com**](https://vaadin.com/home)
-
 * [x] [**Building a Mobile App with Cordova and Vue.js | coligo**](https://coligo.io/building-a-mobile-app-with-cordova-vuejs/)
 * [x] [**Find Vue.js opportunities all around the world - Vue.js Jobs**](https://vuejobs.com/)
 * [x] [**Laravel - The PHP Framework For Web Artisans**](https://laravel.com/)
@@ -1767,8 +1877,8 @@ modifyDate: '2019-06-30'
 * [x] [**16 个小众却很实用的网站（程序员 向） - IT 干货分享 - 知乎专栏**](https://zhuanlan.zhihu.com/p/23005451)
 * [x] [**2016 年 31 款轻量高效的开源 JavaScript 插件和库 - 局长的个人空间 - 开源中国社区**](https://my.oschina.net/hardbone/blog/753578)
 * [x] [**2016 年最新前端学习路线图（附完整视频资源） | 博学谷官网**](http://www.boxuegu.com/web/subject/information/webmap.htm?css88a)
-* [x] [**20 个免费的 AngularJS 资源和开发教程*HTML5 中国*最大的 HTML5 中文门户 - Powered by Discuz!**](http://www.html5cn.org/article-9473-1.html)
-  <!-- - [x] [**20套免费 Web UI Kits & Templates 模板合集（Sketch & PS 适用）（二） - 稀土区**](https://xituqu.com/590.html) -->
+- [x] [**20 个免费的 AngularJS 资源和开发教程*HTML5 中国*最大的 HTML5 中文门户 - Powered by Discuz!**](http://www.html5cn.org/article-9473-1.html)
+- [x] [**20套免费 Web UI Kits & Templates 模板合集（Sketch & PS 适用）（二） - 稀土区**](https://xituqu.com/590.html)
 * [x] [**3 New CSS Features to Learn in 2017**](https://bitsofco.de/3-new-css-features-to-learn-in-2017/)
 * [x] [**4991 innovations - MoreInspiration**](http://www.moreinspiration.com/Search)
 * [x] [**50+ Web 开发者必备指南 & 文档 - 稀土区**](https://xituqu.com/364.html)
@@ -1816,18 +1926,14 @@ modifyDate: '2019-06-30'
   <!-- - [x] [**全国县级医院分布产品-社会经济类数据产品-地理国情监测云平台**](http://www.dsac.cn/DataProduct/Index/201110) -->
 * [x] [**人类象形 2.0（自由人象形材料 2.0）**](http://pictogram2.com/?paged=2)
 * [x] [**软件开发 - 爱编程的大狗|ItStrike**](http://www.itstrike.cn/)
-
 * [x] [**数字性能监控与管理| 新遗物**](https://newrelic.com/)
 * [x] [**素材,素材中国,图片素材,设计素材,素材网-站长素材**](http://sc.chinaz.com/)
 * [x] [**跳转中...**](http://get-set.cn/front-end-chart/)
 * [x] [**万门 | 大学首页**](http://www.wanmen.org/#/)
-
 * [x] [**网页设计和开发的 55 个顶尖博客（by Alecc） - 众成翻译**](http://www.zcfy.cc/article/1417)
   <!-- - [x] [**我们是快乐吗？**](https://arewefastyet.com/) -->
 * [x] [**异次元软件世界 - 软件改变生活！**](http://www.iplaysoft.com/)
-
 <!-- - [x] [**云雾**](http://yohnz.github.io/) -->
-
 - [x] [**重力**](https://marcobambini.github.io/gravity/)
 - [x] [**主页 | JSCODE.ME**](http://jscode.me/)
 - [x] [**字节射手**](http://bytearcher.com/)
@@ -1868,7 +1974,6 @@ modifyDate: '2019-06-30'
 - [x] [**Beetle - Email Marketing Insight**](https://beetle.email/)
 - [x] [**benoitvallon/react-native-nw-react-calculator: Mobile, desktop and website Apps with the same code**](https://github.com/benoitvallon/react-native-nw-react-calculator)
 - [x] [**Bento - Learn to code and be a self-taught expert developer**](https://bento.io/)
-
 - [x] [**Best Web Design and Development Company in UK | Cubet Techno Labs**](http://cubettech.com/)
 - [x] [**BinaryMuse/imgsible: React-based Imgur-like isomorphic demo app**](https://github.com/BinaryMuse/imgsible)
 - [x] [**Blendo.co: Self-serve data management**](https://www.blendo.co/)
@@ -1884,7 +1989,6 @@ modifyDate: '2019-06-30'
 - [x] [**catalinmiron/react-native-dribbble-app: Dribbble app built with React Native**](https://github.com/catalinmiron/react-native-dribbble-app)
 - [x] [**Chartx demos - THX**](http://thx.github.io/chartx/example.html)
 - [x] [**CodePen - Front End Developer Playground & Code Editor in the Browser**](http://codepen.io/)
-
 - [x] [**Coding-Guide/前端单元测试探索.md at master · ecmadao/Coding-Guide**](https://github.com/ecmadao/Coding-Guide/blob/master/Notes/UnitTest/%E5%89%8D%E7%AB%AF%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E6%8E%A2%E7%B4%A2.md)
 - [x] [**CoffeeScript**](http://coffeescript.org/)
 - [x] [**Compass Home | Compass Documentation**](http://compass-style.org/)
@@ -1897,16 +2001,11 @@ modifyDate: '2019-06-30'
 - [x] [**Create an eCommerce Website | Online Store Builder | Wix.com**](http://www.wix.com/ecommerce/website)
 - [x] [**CreateJS | A suite of JavaScript libraries and tools designed for working with HTML5**](http://createjs.com/)
 - [x] [**Creative Intelligence Platform for Retail, Advertising & Design Innovation professionals**](https://www.psfk.com/)
-
-  <!-- - [x] [**crossAPP官网首页**](http://crossapp.9miao.com/#page2) -->
-
+- [x] [**crossAPP官网首页**](http://crossapp.9miao.com/#page2)
 - [x] [**Cute file browser**](http://demo.tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php/)
-
 - [x] [**dabblet.com**](http://dabblet.com/)
-
 - [x] [**Daily fitness programming - Real Life - Real Fitness**](https://aftwenty.com/)
 - [x] [**DeckHub | Desktop client for GitHub**](https://getdeckhub.com/)
-
 - [x] [**DevZum – Blog for Designers and Developers!**](http://devzum.com/)
 - [x] [**DigitalOcean: Cloud computing designed for developers**](https://www.digitalocean.com/)
 - [x] [**Discover and discuss the best software tools and services | StackShare**](https://stackshare.io/)
@@ -1957,11 +2056,8 @@ modifyDate: '2019-06-30'
 - [x] [**Free Stock Photos for Small Business | How to Start an LLC.org**](https://www.howtostartanllc.org/free-stock-photos/)
 - [x] [**GeekLiB/AR-Source: Augmented reality (AR) development resources(增强现实开发资源汇总)**](https://github.com/GeekLiB/AR-Source)
 - [x] [**Ghostery Makes the Web Cleaner, Faster and Safer!**](https://www.ghostery.com/)
-
 * [x] [**GitHub Ranking - Top GitHub users and repositories**](https://github-ranking.com/)
-
 * [x] [**gpu.js - GPU Accelerated JavaScript**](http://gpu.rocks/)
-
 * [x] [**Great Simple Studio - Useful tools for designers**](http://greatsimple.io/)
 * [x] [**Guowc's note**](https://guowc.github.io/)
 * [x] [**GuruDigger**](https://gurudigger.com/home)
@@ -2017,7 +2113,6 @@ modifyDate: '2019-06-30'
 * [x] [**Learn TypeScript in 30 Minutes | Tutorialzine**](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)
 * [x] [**Less Framework**](http://www.jonikorpi.com/less-framework/)
 * [x] [**lib4dev**](http://www.lib4dev.com/?ref=producthunt)
-
 * [x] [**Lifetime Access Pass – Learn JavaScript**](https://ericelliottjs.com/product/lifetime-access-pass/)
 * [x] [**Lightwell: the future of app creation**](https://lightwell.pro/?ref=producthunt)
 * [x] [**Lists**](http://lists.design/)
@@ -2060,11 +2155,9 @@ modifyDate: '2019-06-30'
 * [x] [**OpenLightGroup.com > Home**](http://openlightgroup.com/)
 * [x] [**OverAPI.com | Collecting all the cheat sheets**](https://overapi.com/)
 * [x] [**Overview of JavaScript ES6 features (a.k.a ECMAScript 6 and ES2015+) | Adrian Mejia Blog**](http://adrianmejia.com/blog/2016/10/19/Overview-of-JavaScript-ES6-features-a-k-a-ECMAScript-6-and-ES2015/)
-
 * [x] [**Paper.js**](http://paperjs.org/)
 * [x] [**pForm **](http://www.phpform.org/)
 * [x] [**Pineapple · Web Tutorials and Resources That Don't Suck**](http://pineapple.io/)
-
 * [x] [**pluralsight.com**](http://pluralsight.com/)
 * [x] [**Post-Mount with componentDidMount() · react-indepth**](https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html)
 * [x] [**Progress Button Styles**](http://tympanus.net/Development/ProgressButtonStyles/)
@@ -2074,7 +2167,6 @@ modifyDate: '2019-06-30'
 * [x] [**Quick Tip: Accessing The Clipboard With JavaScript | Tutorialzine**](http://tutorialzine.com/2016/10/quick-tip-accessing-the-clipboard-with-javascript/)
 * [x] [**Rambox : Free, Open Source and Cross Platform app for Slack, WhatsApp, Messenger, Skype and much more...**](http://rambox.pro/)
 * [x] [**Rangle.io Blog**](http://blog.rangle.io/)
-
 * [x] [**Reframe.js**](https://dollarshaveclub.github.io/reframe.js/)
 * [x] [**relay**](https://facebook.github.io/relay/)
 * [x] [**reveal.js – The HTML Presentation Framework**](http://lab.hakim.se/reveal-js/#/)
@@ -2102,7 +2194,6 @@ modifyDate: '2019-06-30'
 * [x] [**THE BASEMENT - A DIGITAL AGENCY**](https://thebasement.tv/)
 * [x] [**The Gyroscope App · your health tracking dashboard**](https://gyrosco.pe/)
 * [x] [**The World's Most Exclusive Website**](http://www.theworldsmostexclusivewebsite.com/)
-
 - [x] [**theCHIVE - Funny Pictures, Photos, Memes & Videos – theCHIVE.com**](http://thechive.com/)
 - [x] [**There is a bot for that | Your one stop shop for discovering chatbots**](https://thereisabotforthat.com/)
 - [x] [**TheTrendSpotter - Women's & Men's Fashion & Style Magazine**](https://www.thetrendspotter.net/)
@@ -2144,9 +2235,7 @@ modifyDate: '2019-06-30'
 - [x] [**WebAssembly: a binary format for the web**](http://www.2ality.com/2015/06/web-assembly.html)
 - [x] [**Webdev 的通讯| Tutorialzine**](http://tutorialzine.com/webdev-newsletter/ff55cd15/)
 - [x] [**WES BOS**](https://cowboy.github.io/wesbos/)
-
-<!-- - [x] [**WordPress Themes by SitePoint — SitePoint**](https://www.sitepoint.com/themes/?utm_source=premium&utm_medium=top-nav) -->
-
+- [x] [**WordPress Themes by SitePoint — SitePoint**](https://www.sitepoint.com/themes/?utm_source=premium&utm_medium=top-nav)
 - [x] [**XD Product Updates | Creative Cloud blog by Adobe**](https://blogs.adobe.com/creativecloud/tag/xd.product.updates/)
 - [x] [**xiekw2010/react-native-gitfeed: Yet another Github client written with react-native.**](https://github.com/xiekw2010/react-native-gitfeed)
 - [x] [**Yandex**](https://www.yandex.com/)
@@ -2173,12 +2262,11 @@ modifyDate: '2019-06-30'
 - [x] [**Home - DesignM.ag**](https://designm.ag/)
 - [x] [**noupe - THE magazine for webworkers and site owners**](https://www.noupe.com/)
 - [x] [**Web Designer Wall - Design Trends and Tutorials - A wall of design ideas, web trends, and tutorials.**](http://webdesignerwall.com/)
-
 - [x] [**Specky Ninja**](http://speckyninja.com/)
 - [x] [**Speckyboy Web Design Magazine - Web Design News, Resources & Inspiration**](https://speckyboy.com/)
 - [x] [**Startcup – Leading community for startups and entrepreneurs**](http://startcup.in/)
 - [x] [**Time Converter and World Clock - Conversion at a Glance - Pick best time to schedule conference calls, webinars, online meetings and phone calls.**](https://www.worldtimebuddy.com/)
-  <!-- - [x] [**blog - arqex**](http://arqex.com/blog) -->
+- [x] [**blog - arqex**](http://arqex.com/blog)
 - [x] [**Zamzar - video converter, audio converter, image converter, eBook converter**](https://www.zamzar.com/)
 - [x] [**Pagedraw — Effortlessly turn mockups into functional UI code**](https://pagedraw.io/)
 - [x] [**tomdale.net**](https://tomdale.net/)
@@ -2189,6 +2277,60 @@ modifyDate: '2019-06-30'
 - [x] [**Hakim El Hattab**](http://hakim.se/)
 - [x] [**LETTERS, INC.**](http://letters-inc.jp/)
 - [x] [**litewerx.showcase**](http://litewerx.dk/)
+
+<a name="more">
+
+### more
+- [x] [**豆瓣电影**](http://movie.douban.com/): 提供最新的电影介绍和影评、评分。
+- [x] [**中国美术馆**](www.namoc.org/): 中国美术馆官方网站。
+- [x] [**蜂鸟网**](www.fengniao.com): 摄影爱好者分享摄影技巧和作品的网站。
+- [x] [**肉丁网**](www.rouding.com): 手工DIY资料学习网站。
+- [x] [**TOPYS**](www.topys.cn): 创意分享网站，欣赏优秀的广告与设计
+- [x] [**好戏网**](www.mask9.com): 提供喜剧推荐及城市喜剧资讯，涉及歌剧、芭蕾、话剧等多个方面。
+- [x] [**Justin Guitar**](www.justinguitar.com/): 免费的吉他课程。
+- [x] [**落网**](www.luoo.net/): 推荐国内外独立音乐的网站。
+- [x] [**鸠摩搜书**](www.jiumodiary.com): 实用的电子书搜书平台。
+- [x] [**书格**](http://shuge.org/): 提供估计阅读的数字图书馆。
+- [x] [**读书人**](www.duxieren.com/): 一个聚合了书评杂志、书评博客。中英文读书资源的读书网站。
+- [x] [**每日一文**](https://meiriyiwen.com/): 每天一遍精彩文章，让读书成为一种乐趣。
+- [x] [**十五言**](www.15yan.com/): 高质量的阅读和写作社区。
+- [x] [**豆瓣阅读**](http://read.douban.com/): 优秀数字作品的阅读、出版平台，提供个人作者原则作品和出版社精品电子书。
+- [x] [**云悦读**](www.iydu.net/): 一个专注于分享有趣文字的阅读网站。
+- [x] [**下厨房**](www.xiachufang.com/): 一个分享实用菜谱做法和饮食知识的平台。
+- [x] [**创客贴**](www.chuangkit.com/dc.html)
+- [x] [**Smallpdf**](http://smallpdf.com/cn): PDF在线转换格式的网站
+- [x] [**幕布**](http://mubu.io/): 在线思维笔记工具，帮助整理结构化内容，构建清晰的思维逻辑。
+- [x] [**丁香医生**](http://dxy.com/): 提供医学健康内容与医疗健康服务的平台。
+- [x] [**千图网**](http://www.58pic.com/): 免费下载设计素材的网站。
+- [x] [**果壳任意门**](http://gate.guokr.com): 汇集了科技、运动、艺术、生活等各类常见的优质网站，如同一个在线收藏夹。
+- [x] [**译言网**](www.yeeyan.org/): 开放的社区翻译平台，可以提供发现的精彩外文内容，翻译原文库的文章。
+- [x] [**沪江英语学习网**](www.hienglish.com/): 英语学习资讯网站，英语学习平台。
+- [x] [**普特英语听力**](www.putclub.com/): 实用的英语听力训练社区。
+- [x] [**魔方电影**](www.mofunenglish.com/): 看电影学习英语的网站，提高口语和听力。
+- [x] [**小语种口语网**](www.tukkk.com/): 提供多种小语种口语练习的网站。
+- [x] [**声同小语种**](www.somdom.com/): 小语种学院论坛，提供泰语、西班牙语、法语、阿拉伯语等学院。
+- [x] [**Lang-8**](www.lang-8.com/): 免费学习多种语言的网站，用户可以上传自己写的外语短文，母语者将会帮助修改你的文章。
+- [x] [**口语伙伴**](http://qidian.isayb.com/index.php): 含公共英语、国外就学、求职面试、社交英语、生活英语等模块口语训练。
+- [x] [**多邻国**](www.duolingo.cn): 免费的外语学习网站，目前向中文使用者提供英语、西班牙语课程。
+- [x] [**AppCan-HTML5**](http:edu.appcan.cn/): 移动应用开发平台。
+- [x] [**中国科普博览**](http://www.kepu.net.cn/gb/index.html): 没有围墙的博物馆，中科院网络化科学传播平台。
+- [x] [**科学松鼠会**](http://songshuhui.net/): 致力于在大众文化层面传播科学的网站。
+- [x] [**十万个为什么**](www.10why.net/): 在线版《十万个为什么》，青少年百科全书。
+- [x] [**一席**](http://yixi.tv): 以现场演讲为特色，其网站上可以观看往期演讲视频。
+- [x] [**自然志**](http://ziranzhi.com/category/naturalism): 用影像和文字记录自然的科普网站。
+- [x] [**世界数字图书馆**](www.wdl.org/zh/): 观赏来自世界各国图书馆的珍贵手稿、地图、建筑图、摄影等文化瑰宝。
+- [x] [**大桔灯（万成文库改版）**](www.dajudeng.com): 提供各类文档免费下载。
+- [x] [**读秀学术搜索与文献传递系统**](www.duxin.com): 收录230余万种中文图书题录信，提供原文传送服务。
+- [x] [**万方数据**](http://c.g.wanfangdata.com.cn): 学术论文、期刊、外文文献等学术资料一站搜索。
+- [x] [**CALIS高校学位轮文库**](www.calis.edu.cn/): 查询国内学位论文全文。
+- [x] [**超星网**](www.chaoxing.com): 网络书库，借助学校图书馆可以免费浏览各类读物和学术专著。
+- [x] [**中国科学引文数据库**](www.sdb.scdl.ac.cn/): 检索在国内期刊发表过的论文被引用情况。
+- [x] [**国家哲学社会科学学术期刊数据库**](http://nssd.org): 国家级哲学社会科学信息平台，在线阅读数百种期刊。
+- [x] [**小木虫**](http://muchong.com): 学术科研互动社区，包括科研问答、论文投稿与基金申请经验等分享。
+- [x] [**VIPExam**](http://open.vipexam.org/): 提供各种领域的热门考试题目。
+- [x] [**世界知识产权组织**](http://www.wipo.int/portal/en/index.html): 查询国外专利文献。
+- [x] [**AI编程助手| Codota**](https://www.codota.com/)
+- [x] [**jQuery**](http://jquery.com/)
 
 <!-- - [x] [**NVD - Home**](https://nvd.nist.gov/)
 - [x] [**Lynda: Online Courses, Classes, Training, Tutorials**](https://www.lynda.com/) -->
@@ -2207,8 +2349,6 @@ modifyDate: '2019-06-30'
 - [x] [**NW.js**](https://nwjs.io/)
 - [x] [**Electron - Build cross platform desktop apps with JavaScript, HTML, and CSS.**](https://electron.atom.io/)
 - [x] [**Backbone.js**](http://backbonejs.org/) -->
-<!-- - [x] [**jQuery**](http://jquery.com/) -->
-<!-- - [x] [**AI编程助手| Codota**](https://www.codota.com/) -->
 <!-- - [x] [**Generative.fm**](https://generative.fm/) -->
 <!-- - [x] [**The Copenhagen Catalog**](https://www.copenhagencatalog.org/) -->
 <!-- - [x] [**GitHub 上有哪些值得推荐的开源电子书？ - 聞其詳的回答 - 知乎**](https://www.zhihu.com/question/38836382/answer/79794319) -->
@@ -2226,14 +2366,12 @@ modifyDate: '2019-06-30'
 <!-- - [x] [**與 CSS Grid 的第一次接觸 | TechBridge 技術共筆部落格**](http://blog.techbridge.cc/2017/02/03/css-grid-intro/) -->
 <!-- - [x] [**前端学习路径 - 知乎专栏**](https://zhuanlan.zhihu.com/p/21935921) -->
 <!-- - [x] [**Library - SitePoint Premium**](https://www.sitepoint.com/premium/topics/all?q=&limit=24&offset=0&page=1&content_types[]=All&slugs[]=all&states[]=available&order=) -->
-
 <!-- - [x] [**Understanding Domain Entities [with Examples] - DDD w/ TypeScript | Khalil Stemmler - JavaScript Developer / Designer**](https://khalilstemmler.com/articles/typescript-domain-driven-design/entities/?fbclid=IwAR1bgOkp6cbWmxUx4PwH9xB48-1jka-exMbg-3O36eZe6uK-ug9zMvcd7DA) -->
 <!-- - [x] [**A闪网 - 仿Magic Touch中的手写识别算法**](http://www.ashan.org/archives/685) -->
 <!-- - [x] [**Uxtools.co | Home**](https://uxtools.co/) -->
 <!-- - [x] [**收藏｜国内外代码托管平台汇总 - 今日头条(www.toutiao.com)**](http://www.toutiao.com/a6405697433892684034/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article&utm_source=mobile_qq&iid=9294793933&utm_medium=toutiao_android) -->
 <!-- - [x] [**完整的旅游技术解决方案| 旅游门户网站开发**](http://www.travelotas.com/) -->
 <!-- - [x] [**网页设计材料**](http://w3cgeek.com/) -->
-
 <!-- - [x] [**网站数据采集_数据采集器_数据采集解决方案_采集联盟 -**](http://www.datll.com/) -->
 <!-- - [x] [**我是独一无二的吗？**](https://amiunique.org/fp) -->
 <!-- - [x] [**学习JavaScript设计模式**](https://addyosmani.com/resources/essentialjsdesignpatterns/book/) -->
@@ -2242,5 +2380,4 @@ modifyDate: '2019-06-30'
 <!-- - [x] [**前端库 - 前端开发，JQUERY特效，全栈开发，vue开发**](http://www.jqhtml.com/) -->
 <!-- - [x] [**500+ AngularJS Tutorial & Angular2+ Plugins with Examples 2017AngularJS**](http://angularjs.bestjquery.com/) -->
 <!-- - [x] [**AngularJS 4U Blog - Demos, News, Directives & Coding Tips**](https://www.angularjs4u.com/) -->
-
 <!-- - [x] [**Recorded Live | Let’s Code JavaScript**](http://www.letscodejavascript.com/v3/episodes/live) -->
