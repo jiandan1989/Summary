@@ -8,7 +8,7 @@ import React from 'react';
 import { Progress } from 'antd';
 import styled from 'styled-components';
 
-import useScrollPercent from '@/useHooks/useScrollPercent';
+import useScrollPercent from '@/hooks/useScrollPercent';
 
 const ProgressWrapper = styled(Progress)`
   &.ant-progress {

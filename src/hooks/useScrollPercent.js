@@ -1,8 +1,4 @@
-/**
- * @name: useScrollPercent
- * @desc: 自定义获取滚动占比
- */
-
+// 自定义获取滚动占比
 import { useEffect, useState } from 'react';
 
 function getScrollHeight() {

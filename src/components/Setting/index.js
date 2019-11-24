@@ -7,7 +7,7 @@ import React, { Fragment, useState } from 'react';
 import { Icon, Affix, Drawer, Button } from 'antd';
 
 import styled from 'styled-components';
-import useWindowSize from '@/useHooks/useWindowSize';
+import useWindowSize from '@/hooks/useWindowSize';
 
 const AffixWrapper = styled(Affix)`
   .ant-affix {
