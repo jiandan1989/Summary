@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_blogs=self.webpackChunkgatsby_blogs||[]).push([[218],{32513:function(e,t,a){a.r(t);var l=a(67294),s=a(59045),c=a(4001);t.default=()=>l.createElement(s.Z,null,l.createElement(c.Z,{title:"404: Not found"}),l.createElement("img",{src:"https://images.unsplash.com/photo-1504276048855-f3d60e69632f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2785&q=80",alt:"404"}))}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-0ad6b700a73904a4682b.js.map
