@@ -1,0 +1,5 @@
+*.yaml
+**/*.svg
+**/*.ejs
+**/*.html
+package.json

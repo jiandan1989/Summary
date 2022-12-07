@@ -27,25 +27,25 @@
 // costMoney(100)
 // costMoney(200)
 // costMoney(300)
-// console.log(costMoney()) // 600 
-
+// console.log(costMoney()) // 600
 
 function curring(fn) {
-  const args = [];
+	const args = [];
 
-  return function() {
-    if (arguments.length === 0) {
-      return fn.apply(this, args);
-    } else {
-      args.push(...arguments);
-      return arguments.callee;
-    }
-  }
+	return function() {
+		if (arguments.length === 0) {
+			return fn.apply(this, args);
+		} else {
+			args.push(...arguments);
+			return arguments.callee;
+		}
+	};
 }
 
-const cost = (() => (...rest) => rest.reduce((prev, next) => {
-  return prev + next;
-}, 0))();
+const cost = (() => (...rest) =>
+	rest.reduce((prev, next) => {
+		return prev + next;
+	}, 0))();
 
 const costMoney = curring(cost);
 

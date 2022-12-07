@@ -3,7 +3,7 @@ import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { Row, Col } from 'antd';
 import QueueAnim from 'rc-queue-anim';
-import { getChildrenToRender } from '@/utils/bootstrap';
+import { getChildrenToRender } from '../../utils/bootstrap';
 
 class Content8 extends React.PureComponent {
   getDelay = (e, b) => (e % b) * 100 + Math.floor(e / b) * 100 + b * 100;
